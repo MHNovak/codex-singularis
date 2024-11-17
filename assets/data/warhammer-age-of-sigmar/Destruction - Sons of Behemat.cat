@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4a93-36aa-7f57-9f37" name="Destruction - Sons of Behemat" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="157" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="2358-06ef-464b-acf1" name="Allegiance" hidden="false" collective="false" import="true" targetId="1246-2124-14b2-b2c3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a581-de2f-bf37-780c" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8e6c-0af4-b2a5-5ade" name="Battle Tactics: Rampaging Gargants" hidden="false" collective="false" import="true" targetId="ceb0-45ff-55d8-3c5d" type="selectionEntry"/>
+    <entryLink id="2d40-7bb9-bd22-6706" name="Beast-smasher Mega-Gargant" hidden="false" collective="false" import="true" targetId="b18c-7b19-81ae-3030" type="selectionEntry"/>
+    <entryLink id="7449-7be0-5fc2-6947" name="Beast-smasher Mega-Gargant" hidden="false" collective="false" import="true" targetId="b18c-7b19-81ae-3030" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b98e-be48-8f51-dfd7" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5958-b444-0c61-6ad8" name="Big Drogg Fort-Kicka - Gatebreaker Mercenary" hidden="false" collective="false" import="true" targetId="8c3b-e825-efb0-25bd" type="selectionEntry"/>
+    <entryLink id="d320-e6c2-10b8-17c7" name="Bonegrinder Mega-Gargant" hidden="false" collective="false" import="true" targetId="0f26-cff6-ce4e-f0a8" type="selectionEntry"/>
+    <entryLink id="5e84-d9d6-74be-968f" name="Brawlsmasha - Bonegrinder Mercenary" hidden="false" collective="false" import="true" targetId="2f06-27c0-9f3d-40ad" type="selectionEntry"/>
+    <entryLink id="71c3-e9a0-3a88-bbca" name="Bundo Whalebiter - Kraken-Eater Mercenary" hidden="false" collective="false" import="true" targetId="efae-6133-d899-a7e4" type="selectionEntry"/>
+    <entryLink id="c61a-7888-c2e4-2a64" name="Gatebreaker Mega-Gargant" hidden="false" collective="false" import="true" targetId="99b4-c561-36dc-24dc" type="selectionEntry"/>
+    <entryLink id="62a2-b585-36c4-9ff2" name="Gatebreaker Mega-Gargant" hidden="false" collective="false" import="true" targetId="99b4-c561-36dc-24dc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b091-d3f1-32bd-fb97" name="Battleline" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2be4-190f-7574-54e1" name="Grand Strategy" hidden="false" collective="false" import="true" targetId="b122-5210-f861-07c6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c5cb-ed0e-0a83-0f7c" name="New CategoryLink" hidden="false" targetId="1974-3f49-7f0b-8422" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e342-a11d-2499-d78a" name="King Brodd" hidden="false" collective="false" import="true" targetId="767d-622f-11f1-cff7" type="selectionEntry"/>
+    <entryLink id="2de0-c950-f0f1-79cb" name="King Brodd" hidden="false" collective="false" import="true" targetId="767d-622f-11f1-cff7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="57a2-8327-264b-100f" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e884-5f55-d09c-86dc" name="Kragnos, The End of Empires" hidden="false" collective="false" import="true" targetId="4eea-4e53-1088-fb6c" type="selectionEntry"/>
+    <entryLink id="1e13-b293-eaa6-f1a2" name="Kraken-Eater Mega-Gargant" hidden="false" collective="false" import="true" targetId="7226-1069-1d4a-26ed" type="selectionEntry"/>
+    <entryLink id="869d-0ccc-2646-e969" name="Kraken-Eater Mega-Gargant" hidden="false" collective="false" import="true" targetId="7226-1069-1d4a-26ed" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0aba-733c-e55c-92b2" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="859a-a04f-ce23-3c9e" name="Mancrusher Gargants" hidden="false" collective="false" import="true" targetId="f058-2fc7-dee2-9e04" type="selectionEntry"/>
+    <entryLink id="5e7d-1680-b125-81d4" name="Mancrusher Gargants Mob" hidden="false" collective="false" import="true" targetId="d75a-b542-bdbd-66e8" type="selectionEntry"/>
+    <entryLink id="1097-d13e-225a-acae" name="Odo Godswallow - Beast-smasher Mercenary" hidden="false" collective="false" import="true" targetId="6373-4970-e2af-dd88" type="selectionEntry"/>
+    <entryLink id="7a82-139b-5551-f12f" name="One-Eyed Grunnock - Warstomper Mercenary" hidden="false" collective="false" import="true" targetId="40c7-4bb8-cfd9-7319" type="selectionEntry"/>
+    <entryLink id="b76b-76e4-8342-012a" name="Sons of Behemat Core Battalion: Bosses of the Stomp" hidden="false" collective="false" import="true" targetId="0f4e-05e8-cbdf-6bae" type="selectionEntry"/>
+    <entryLink id="3ad3-571c-8c39-0f4f" name="Sons of Behemat Core Battalion: Footsloggas" hidden="false" collective="false" import="true" targetId="8e82-28de-df58-09df" type="selectionEntry"/>
+    <entryLink id="c026-ef73-3015-95ca" name="Warstomper Mega-Gargant" hidden="false" collective="false" import="true" targetId="1661-ab1d-cef5-9dfe" type="selectionEntry"/>
+    <entryLink id="31ba-78b8-5b5f-09b1" name="Warstomper Mega-Gargant" hidden="false" collective="false" import="true" targetId="1661-ab1d-cef5-9dfe" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="13a0-eea0-ad2a-0776" name="Battleline" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dda5-81cc-c868-c275" name="Wrath of Titans" hidden="false" collective="false" import="true" targetId="3fba-64f0-6aab-a8f3" type="selectionEntry"/>
+    <entryLink id="0591-16a5-5cc7-b1ed" name="Regiment of Renown - Big Grikk&apos;s Kruleshots" hidden="false" collective="false" import="true" targetId="c9de-fb1a-e665-362f" type="selectionEntry"/>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="301f-109f-3a55-72ec" name="Destruction - Data" targetId="9356-8da1-02b8-b092" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="fb93-67bb-9ef3-cff3" name="Destruction - Sons of Behemat" targetId="f904-b52f-810a-e446" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="d43a-de7a-edfb-49a2" name="Regiments of Renown" targetId="33cf-d309-6df3-50d6" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

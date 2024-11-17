@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ed04-877b-c5d3-ce41" name="Order - Stormcast Eternals" revision="69" battleScribeVersion="2.03" authorName="" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="157" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profileTypes>
+    <profileType id="9cb4-15df-780d-f4ee" name="Crew Table">
+      <characteristicTypes>
+        <characteristicType id="16e7-fc98-da3d-921d" name="Variable1"/>
+        <characteristicType id="93ac-2863-3f94-b8ac" name="Variable2"/>
+        <characteristicType id="c11c-4fd8-5dac-cb38" name="Variable3"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <entryLinks>
+    <entryLink id="7332-f387-438b-852c" name="Allegiance" hidden="false" collective="false" import="true" targetId="c6a3-2acf-1e46-3896" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f799-9cd3-6530-624e" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e779-4dc2-4d8c-8676" name="Lord-Celestant on Dracoth" hidden="false" collective="false" import="true" targetId="5232-9953-1b83-0097" type="selectionEntry"/>
+    <entryLink id="6e8d-cdd5-337d-ef5d" name="Drakesworn Templar" hidden="false" collective="false" import="true" targetId="1090-dc26-d603-1103" type="selectionEntry"/>
+    <entryLink id="e7aa-2962-d6ab-8be7" name="Lord-Celestant on Stardrake" hidden="false" collective="false" import="true" targetId="19ca-60d5-c3b7-9444" type="selectionEntry"/>
+    <entryLink id="3655-872d-ae10-f8a5" name="Concussors" hidden="false" collective="false" import="true" targetId="a106-3d7e-be4d-bf3b" type="selectionEntry"/>
+    <entryLink id="38dc-ac4d-bb07-37a9" name="Dracothian Guard Desolators" hidden="false" collective="false" import="true" targetId="c97b-8f8b-99d4-71ed" type="selectionEntry"/>
+    <entryLink id="d7c3-3ecd-4fe2-3212" name="Fulminators" hidden="false" collective="false" import="true" targetId="fed1-2388-810f-3ae7" type="selectionEntry"/>
+    <entryLink id="4566-0227-ca46-cab0" name="Dracothian Guard Tempestors" hidden="false" collective="false" import="true" targetId="4115-b86d-bbd9-69ab" type="selectionEntry"/>
+    <entryLink id="ea68-313d-ab64-e7d5" name="Judicators with Skybolt Bow" hidden="false" collective="false" import="true" targetId="993b-d238-93ba-a4f2" type="selectionEntry"/>
+    <entryLink id="6baa-75dc-373d-a127" name="Celestant-Prime, Hammer of Sigmar" hidden="false" collective="false" import="true" targetId="4827-4147-67c2-16f7" type="selectionEntry"/>
+    <entryLink id="ec2a-ac0a-92f9-6b53" name="Knight-Azyros" hidden="false" collective="false" import="true" targetId="afac-5154-99ae-ee3c" type="selectionEntry"/>
+    <entryLink id="caba-79b0-d660-22ac" name="Knight-Heraldor" hidden="false" collective="false" import="true" targetId="3c2d-c00c-722b-36d2" type="selectionEntry"/>
+    <entryLink id="973a-aa28-e9de-1f2f" name="Knight-Venator" hidden="false" collective="false" import="true" targetId="aeb5-ae52-567b-5f8c" type="selectionEntry"/>
+    <entryLink id="b3c6-1d6d-3af0-9d9e" name="Knight-Vexillor" hidden="false" collective="false" import="true" targetId="9320-740f-eb76-c07b" type="selectionEntry"/>
+    <entryLink id="fe7d-4037-5dde-6926" name="Lord-Castellant" hidden="false" collective="false" import="true" targetId="15e7-d7b5-5bed-3c54" type="selectionEntry"/>
+    <entryLink id="0f9a-f02a-61ca-324b" name="Lord-Celestant" hidden="false" collective="false" import="true" targetId="425f-9d59-b2f6-b5f0" type="selectionEntry"/>
+    <entryLink id="5048-b161-6f3d-8c30" name="Lord-Relictor" hidden="false" collective="false" import="true" targetId="ce64-88a6-ce56-0940" type="selectionEntry"/>
+    <entryLink id="369f-4f98-a1df-728a" name="Decimators" hidden="false" collective="false" import="true" targetId="5330-8a21-c53d-7aa3" type="selectionEntry"/>
+    <entryLink id="29fb-a93d-9625-1332" name="Gryph-Hounds" hidden="false" collective="false" import="true" targetId="d79a-14b4-5f86-76d2" type="selectionEntry"/>
+    <entryLink id="ab34-4569-760e-6394" name="Prosecutors with Celestial Hammers" hidden="false" collective="false" import="true" targetId="432b-fe7d-867c-7e7d" type="selectionEntry"/>
+    <entryLink id="8e5e-09df-e579-13cb" name="Protectors" hidden="false" collective="false" import="true" targetId="5858-a948-c65e-b3b7" type="selectionEntry"/>
+    <entryLink id="cfdb-3b6b-1a35-b615" name="Retributors" hidden="false" collective="false" import="true" targetId="20ee-5f80-e899-a31b" type="selectionEntry"/>
+    <entryLink id="cd66-df81-2c79-7231" name="Knight-Questor" hidden="false" collective="false" import="true" targetId="3c95-3545-4b34-4221" type="selectionEntry"/>
+    <entryLink id="b377-1f0c-bd84-9aa8" name="Lord-Veritant" hidden="false" collective="false" import="true" targetId="7132-5dde-398e-d8a0" type="selectionEntry"/>
+    <entryLink id="a266-1d9d-9fc2-c054" name="Lord-Aquilor" hidden="false" collective="false" import="true" targetId="a352-bb91-9133-a58d" type="selectionEntry"/>
+    <entryLink id="39fb-ca45-181d-24bb" name="Vanguard-Hunters" hidden="false" collective="false" import="true" targetId="a304-f6e3-9750-fae8" type="selectionEntry"/>
+    <entryLink id="9764-9c8d-87a6-abb9" name="Vanguard-Palladors" hidden="false" collective="false" import="true" targetId="495f-0703-ade1-f179" type="selectionEntry"/>
+    <entryLink id="88ae-4437-b276-fe0a" name="Vanguard-Raptors with Hurricane Crossbows" hidden="false" collective="false" import="true" targetId="f013-a130-757f-6fbd" type="selectionEntry"/>
+    <entryLink id="6c32-cec9-846c-c420" name="Vanguard-Raptors with Longstrike Crossbows" hidden="false" collective="false" import="true" targetId="5a5d-a64b-6f2e-0ed9" type="selectionEntry"/>
+    <entryLink id="7d2b-3d65-f016-dd26" name="Neave Blacktalon" hidden="false" collective="false" import="true" targetId="e72f-58fe-d697-6be6" type="selectionEntry"/>
+    <entryLink id="c40a-f331-f505-15bc" name="Lord-Ordinator" hidden="false" collective="false" import="true" targetId="c924-f509-4a7f-1735" type="selectionEntry"/>
+    <entryLink id="0e35-1edd-4065-5563" name="Vandus Hammerhand" hidden="false" collective="false" import="true" targetId="66fb-5872-a345-2ad5" type="selectionEntry"/>
+    <entryLink id="a22f-a46a-385b-a573" name="Gavriel Sureheart" hidden="false" collective="false" import="true" targetId="722a-0a7a-212c-da4c" type="selectionEntry"/>
+    <entryLink id="4391-8ed0-6bff-1873" name="Steelheart&apos;s Champions" hidden="false" collective="false" import="true" targetId="b8d3-7d4a-8689-ab16" type="selectionEntry"/>
+    <entryLink id="c3d7-1905-1703-71f9" name="Liberators" hidden="false" collective="false" import="true" targetId="5b8e-b5ee-8df3-9f2f" type="selectionEntry"/>
+    <entryLink id="8b3c-2baa-f4d3-d24e" name="The Farstriders" hidden="false" collective="false" import="true" targetId="384d-78bf-f7a0-887d" type="selectionEntry"/>
+    <entryLink id="f4d1-5179-c21a-a1b4" name="Castigators" hidden="false" collective="false" import="true" targetId="623f-7949-6fb7-fd62" type="selectionEntry"/>
+    <entryLink id="18c5-dfd0-7146-0e0b" name="Sequitors" hidden="false" collective="false" import="true" targetId="29da-7c0d-155b-f63a" type="selectionEntry"/>
+    <entryLink id="f3ba-f7a5-03b5-3662" name="Evocators" hidden="false" collective="false" import="true" targetId="6427-4f9f-abde-dc0b" type="selectionEntry"/>
+    <entryLink id="52b2-0d9a-3028-fa25" name="Lord-Arcanum on Gryph-charger" hidden="false" collective="false" import="true" targetId="775a-c8fb-23a8-5c2a" type="selectionEntry"/>
+    <entryLink id="f772-e53a-d545-36bf" name="Knight-Incantor" hidden="false" collective="false" import="true" targetId="7a4b-b062-14f2-65db" type="selectionEntry"/>
+    <entryLink id="860b-7244-e6f9-95dd" name="Celestar Ballista" hidden="false" collective="false" import="true" targetId="70bf-9177-9d10-bc5f" type="selectionEntry"/>
+    <entryLink id="11c3-a45d-d15e-3eea" name="Errant-Questor" hidden="false" collective="false" import="true" targetId="530a-e1c9-444c-bc70" type="selectionEntry"/>
+    <entryLink id="3209-2c3a-ad64-504b" name="Astreia Solbright" hidden="false" collective="false" import="true" targetId="0bd3-8d56-f1d3-23ea" type="selectionEntry"/>
+    <entryLink id="28f9-1c1e-70b7-c180" name="Aventis Firestrike, Magister of Hammerhal" hidden="false" collective="false" import="true" targetId="c346-0cbf-16de-8230" type="selectionEntry"/>
+    <entryLink id="5c08-4d56-cc4f-f201" name="Stormcast Warscroll Battalion: Cleansing Phalanx" hidden="false" collective="false" import="true" targetId="f1db-2143-5dd1-4dd2" type="selectionEntry"/>
+    <entryLink id="0f9d-93e9-051e-c701" name="Lord-Arcanum on Tauralon" hidden="false" collective="false" import="true" targetId="6f87-6fec-658e-d582" type="selectionEntry"/>
+    <entryLink id="490f-a876-a870-8261" name="Lord-Arcanum on Celestial Dracoline" hidden="false" collective="false" import="true" targetId="8568-5b1b-179d-e1c5" type="selectionEntry"/>
+    <entryLink id="3bfb-34ae-c0c1-4dff" name="Lord-Arcanum" hidden="false" collective="false" import="true" targetId="f069-8a02-0d59-83be" type="selectionEntry"/>
+    <entryLink id="b844-d5ca-0586-7f67" name="Lord-Exorcist" hidden="false" collective="false" import="true" targetId="b92f-b04d-3339-5cd9" type="selectionEntry"/>
+    <entryLink id="9187-0e96-e44b-8120" name="Knight-Zephyros" hidden="false" collective="false" import="true" targetId="40dd-3878-4b37-f96e" type="selectionEntry"/>
+    <entryLink id="47f0-cb47-75b8-a274" name="Evocators on Celestial Dracolines" hidden="false" collective="false" import="true" targetId="8800-4822-2349-f731" type="selectionEntry"/>
+    <entryLink id="cfea-25a0-2fd1-2a9b" name="Averon Stormsire" hidden="false" collective="false" import="true" targetId="aff4-016f-04b6-cf66" type="selectionEntry"/>
+    <entryLink id="8bbe-faa3-9614-40fc" name="Stormsire&apos;s Cursebreakers" hidden="false" collective="false" import="true" targetId="d804-282f-96b2-4d98" type="selectionEntry"/>
+    <entryLink id="a81d-a242-af20-1bc2" name="Lynus Ghalmorian on Gryph-charger" hidden="false" collective="false" import="true" targetId="9e60-d9e5-d5da-5a58" type="selectionEntry"/>
+    <entryLink id="b8d1-87ed-3e64-352b" name="Bundo Whalebiter - Kraken-Eater Mercenary" hidden="false" collective="false" import="true" targetId="efae-6133-d899-a7e4" type="selectionEntry"/>
+    <entryLink id="c820-2034-45ac-0662" name="Karazai" hidden="false" collective="false" import="true" targetId="7dd4-0c32-1279-7b54" type="selectionEntry"/>
+    <entryLink id="f9d3-8228-a3d6-03b7" name="Gardus Steel Soul" hidden="false" collective="false" import="true" targetId="ee13-f44a-895b-4889" type="selectionEntry"/>
+    <entryLink id="d449-fbb1-b391-e0b4" name="Annihilators" hidden="false" collective="false" import="true" targetId="49fe-664e-6531-0b6d" type="selectionEntry"/>
+    <entryLink id="d4fc-5da0-d6d5-7d5a" name="Vindictors" hidden="false" collective="false" import="true" targetId="4a87-00dc-c62a-074f" type="selectionEntry"/>
+    <entryLink id="f532-d3d9-47ff-3803" name="Yndrasta" hidden="false" collective="false" import="true" targetId="b186-2f79-0f02-ec9a" type="selectionEntry"/>
+    <entryLink id="c86a-bb0d-ce19-01f9" name="Knight-Arcanum" hidden="false" collective="false" import="true" targetId="6fb8-c9ea-efa0-523e" type="selectionEntry"/>
+    <entryLink id="ae73-875f-2773-b7eb" name="Knight-Vexillor with Banner of Apotheosis" hidden="false" collective="false" import="true" targetId="6cfb-1af1-7825-f2d8" type="selectionEntry"/>
+    <entryLink id="fbb7-618f-334a-d1f9" name="Lord-Imperatant" hidden="false" collective="false" import="true" targetId="9feb-e0f1-ed03-5ebf" type="selectionEntry"/>
+    <entryLink id="45b9-6ddf-63df-5368" name="Praetors" hidden="false" collective="false" import="true" targetId="be54-5dfd-1196-d7e5" type="selectionEntry"/>
+    <entryLink id="cbb0-9f74-6fa1-1a55" name="Grand Strategy" hidden="false" collective="false" import="true" targetId="4e80-17a2-f4ab-b66d" type="selectionEntry"/>
+    <entryLink id="cb4d-db58-99d0-16a7" name="Stormcast Core Battalion: Brotherhood Command" hidden="false" collective="false" import="true" targetId="603a-d62d-58de-207a" type="selectionEntry"/>
+    <entryLink id="3473-ca75-c859-b744" name="Stormcast Core Battalion: Redemption Brotherhood" hidden="false" collective="false" import="true" targetId="fcc3-6657-917f-e1ab" type="selectionEntry"/>
+    <entryLink id="9133-3bd9-e2d9-ae93" name="Stormcast Core Battalion: Soulstrike Brotherhood" hidden="false" collective="false" import="true" targetId="2576-2545-9cd2-dd1f" type="selectionEntry"/>
+    <entryLink id="f3d8-26f7-846c-f1e8" name="Krondys" hidden="false" collective="false" import="true" targetId="a8ba-15b1-e472-e63b" type="selectionEntry"/>
+    <entryLink id="b674-260e-3abb-c0ec" name="Lord-Commander Bastian Carthalos" hidden="false" collective="false" import="true" targetId="97d9-76bd-57e9-e64e" type="selectionEntry"/>
+    <entryLink id="20ce-688c-eba5-199f" name="Prosecutors with Stormcall Javelins" hidden="false" collective="false" import="true" targetId="9147-0d4a-e547-aa85" type="selectionEntry"/>
+    <entryLink id="776d-e493-b246-3bc0" name="Annihilators with Meteoric Grandhammers" hidden="false" collective="false" import="true" targetId="f5ea-2bc4-6ce1-1d36" type="selectionEntry"/>
+    <entryLink id="3c1e-4004-0e20-c182" name="Faithful Gryph-hound" hidden="false" collective="false" import="true" targetId="418d-7593-dbec-9cbf" type="selectionEntry"/>
+    <entryLink id="424e-0827-6742-dc59" name="Judicators with Boltstorm Crossbows" hidden="false" collective="false" import="true" targetId="bcde-da87-e21e-6367" type="selectionEntry"/>
+    <entryLink id="2fbc-c79f-7c10-9dfc" name="Knight-Draconis" hidden="false" collective="false" import="true" targetId="7cfa-7c55-473d-f251" type="selectionEntry"/>
+    <entryLink id="2dc7-36f1-8404-c7f2" name="Knight-Judicator with Gryph-hounds" hidden="false" collective="false" import="true" targetId="9d30-f9a0-5211-accd" type="selectionEntry"/>
+    <entryLink id="05d0-9fc2-9775-b39d" name="Knight-Relictor" hidden="false" collective="false" import="true" targetId="cf7f-8472-2025-b036" type="selectionEntry"/>
+    <entryLink id="091e-4c1b-3f45-6608" name="Stormcast Warscroll Battalion: Hammerstrike Force" hidden="false" collective="false" import="true" targetId="503c-5ab0-9e79-eb17" type="selectionEntry"/>
+    <entryLink id="f59d-782d-0960-f538" name="Stormcast Warscroll Battalion: Lords of the Warrior Chamber" hidden="false" collective="false" import="true" targetId="7965-7604-5bf6-4f1c" type="selectionEntry"/>
+    <entryLink id="3c27-fba7-a1db-6a9d" name="Stormcast Warscroll Battalion: Thunderhead Brotherhood" hidden="false" collective="false" import="true" targetId="4884-f262-7007-a3af" type="selectionEntry"/>
+    <entryLink id="2050-0098-8438-8ac1" name="Stormdrake Guard" hidden="false" collective="false" import="true" targetId="c079-8ab1-38db-b9c2" type="selectionEntry"/>
+    <entryLink id="4033-b6e0-699c-94f3" name="Stormstrike Chariot" hidden="false" collective="false" import="true" targetId="135a-9b73-305e-ead2" type="selectionEntry"/>
+    <entryLink id="3189-2d1e-3736-915b" name="Vanquishers" hidden="false" collective="false" import="true" targetId="3407-44e4-19c0-886b" type="selectionEntry"/>
+    <entryLink id="33c6-d047-30aa-0010" name="Vigilors" hidden="false" collective="false" import="true" targetId="5f6f-1e1f-262c-7601" type="selectionEntry"/>
+    <entryLink id="651c-1fe5-10ef-e8be" name="Dracothian Guard Fulminator (single)" hidden="false" collective="false" import="true" targetId="c3a5-68cd-b4c8-d730" type="selectionEntry"/>
+    <entryLink id="0c8e-0adf-0acf-e26c" name="Stormdrake Guard (Single)" hidden="false" collective="false" import="true" targetId="36a0-2e80-4974-a80a" type="selectionEntry"/>
+    <entryLink id="96f3-518c-f500-3b27" name="Stormcast Warscroll Battalion: Drakesworn Temple" hidden="false" collective="false" import="true" targetId="03a8-a0ae-f047-ca47" type="selectionEntry"/>
+    <entryLink id="851d-2c14-3bec-507e" name="Stormcast Warscroll Battalion: Devastation Brotherhood" hidden="false" collective="false" import="true" targetId="e7ee-a73e-a476-dc29" type="selectionEntry"/>
+    <entryLink id="afe3-00e2-e537-8109" name="Stormcast Warscroll Battalion: Grand Convocation" hidden="false" collective="false" import="true" targetId="f01f-c247-0061-23fc" type="selectionEntry"/>
+    <entryLink id="fa87-b99f-5e23-c3a1" name="Stormcast Warscroll Battalion: Hailstorm Battery" hidden="false" collective="false" import="true" targetId="fced-bc4d-7f14-5ac1" type="selectionEntry"/>
+    <entryLink id="b553-90c3-31f9-97b5" name="Stormcast Warscroll Battalion: Lightning Echelon" hidden="false" collective="false" import="true" targetId="9dcd-543f-67e6-dd68" type="selectionEntry"/>
+    <entryLink id="0b48-d29a-91ee-fa8a" name="Stormcast Warscroll Battalion: Lords of the Exemplar Chamber" hidden="false" collective="false" import="true" targetId="420c-245f-7608-1337" type="selectionEntry"/>
+    <entryLink id="0d56-500c-e58f-3474" name="Stormcast Warscroll Battalion: Lords of the Harbinger Chamber" hidden="false" collective="false" import="true" targetId="9244-7ac7-a23e-01b6" type="selectionEntry"/>
+    <entryLink id="396c-ee39-7605-ea62" name="Stormcast Warscroll Battalion: Thunderwave Echelon" hidden="false" collective="false" import="true" targetId="b640-5cc8-e38b-22bc" type="selectionEntry"/>
+    <entryLink id="6703-76ca-c216-1677" name="Stormcast Warscroll Battalion: Vanguard Angelos Conclave" hidden="false" collective="false" import="true" targetId="64e4-5b06-19c6-42b0" type="selectionEntry"/>
+    <entryLink id="23c8-78bb-3285-708f" name="Stormcast Warscroll Battalion: Vanguard Justicar Conclave" hidden="false" collective="false" import="true" targetId="125d-cfc2-e5c9-6780" type="selectionEntry"/>
+    <entryLink id="337a-ce84-1a51-2cc4" name="Stormcast Warscroll Battalion: Vanguard Wing" hidden="false" collective="false" import="true" targetId="2598-0df0-d53f-d44f" type="selectionEntry"/>
+    <entryLink id="969d-4ffc-8cc4-376b" name="Aetherwings" hidden="false" collective="false" import="true" targetId="8940-6351-56bb-6cbf" type="selectionEntry"/>
+    <entryLink id="c2d3-fc7f-b73f-47b1" name="Battle Tactics" hidden="false" collective="false" import="true" targetId="333e-d2d1-8f5d-061c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dc2a-557e-29aa-5d00" name="New CategoryLink" hidden="false" targetId="1974-3f49-7f0b-8422" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aaea-3d02-acdf-451e" name="Xandire&apos;s Truthseekers" hidden="false" collective="false" import="true" targetId="9a23-dbdc-7d24-65c3" type="selectionEntry"/>
+    <entryLink id="9ee0-9632-8d34-873a" name="Knight-Questor Dacian Anvil" hidden="false" collective="false" import="true" targetId="59d2-7233-9667-f2c1" type="selectionEntry"/>
+    <entryLink id="f20d-6e4e-4c9a-26ba" name="Endless Spell: Celestian Vortex" hidden="false" collective="false" import="true" targetId="8893-3004-44ae-ec33" type="selectionEntry"/>
+    <entryLink id="f5c8-6d0a-df92-6b95" name="Endless Spell: Dais Arcanum" hidden="false" collective="false" import="true" targetId="e86e-9f5f-c3e5-177a" type="selectionEntry"/>
+    <entryLink id="392d-2ba9-1a45-df0d" name="Endless Spell: Everblaze Comet" hidden="false" collective="false" import="true" targetId="3b36-4ddd-ca51-aa86" type="selectionEntry"/>
+    <entryLink id="46f2-8894-e9cb-fe96" name="Regiment of Renown - Elthwin&apos;s Thorns" hidden="false" collective="false" import="true" targetId="66f8-b848-40fa-a08d" type="selectionEntry"/>
+    <entryLink id="dbd1-ce7c-363f-8647" name="Regiment of Renown - Norgrimm&apos;s Rune Throng" hidden="false" collective="false" import="true" targetId="9553-8763-ddc2-a840" type="selectionEntry"/>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="9f47-72b8-45c8-2825" name="Order - Stormcast Eternals - Data" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="5f97-5c88-d630-197a" name="Destruction - Sons of Behemat" targetId="f904-b52f-810a-e446" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="3fa8-61da-a72e-d66e" name="Endless Spells" targetId="f0db-356d-9f9f-662d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="cebc-c15f-149f-78ef" name="Regiments of Renown" targetId="33cf-d309-6df3-50d6" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

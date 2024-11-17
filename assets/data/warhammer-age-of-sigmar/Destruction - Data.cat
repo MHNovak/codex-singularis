@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9356-8da1-02b8-b092" name="Destruction - Data" revision="8" battleScribeVersion="2.03" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="120" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profileTypes>
+    <profileType id="af09-9242-ca0a-c588" name="Kragnos Wound Track">
+      <characteristicTypes>
+        <characteristicType id="d609-4925-74ce-c9fc" name="Wounds Suffered"/>
+        <characteristicType id="b499-3cb2-1248-a682" name="Move"/>
+        <characteristicType id="7f8b-89b1-5e98-4d3a" name="Hooves of Wrack and Ruin"/>
+        <characteristicType id="e1ca-f024-5e1c-6547" name="Bellow of Rage"/>
+        <characteristicType id="a937-e3cd-3916-0eab" name="Mightiest Makes Rightiest"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <categoryEntries>
+    <categoryEntry id="9d2c-4323-5ae9-47f4" name="KRAGNOS" hidden="false"/>
+    <categoryEntry id="0943-b695-320c-b404" name="DROGRUKH" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="4eea-4e53-1088-fb6c" name="Kragnos, The End of Empires" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="037a-18d6-cafd-6ebb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="91b3-d7de-2d0b-6a3e" name="Wounds1" hidden="false" typeId="af09-9242-ca0a-c588" typeName="Kragnos Wound Track">
+          <characteristics>
+            <characteristic name="Wounds Suffered" typeId="d609-4925-74ce-c9fc">0-9</characteristic>
+            <characteristic name="Move" typeId="b499-3cb2-1248-a682">10&quot;</characteristic>
+            <characteristic name="Hooves of Wrack and Ruin" typeId="7f8b-89b1-5e98-4d3a">6</characteristic>
+            <characteristic name="Bellow of Rage" typeId="e1ca-f024-5e1c-6547">5+</characteristic>
+            <characteristic name="Mightiest Makes Rightiest" typeId="a937-e3cd-3916-0eab">30</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a605-4c98-d58c-e352" name="Wounds2" hidden="false" typeId="af09-9242-ca0a-c588" typeName="Kragnos Wound Track">
+          <characteristics>
+            <characteristic name="Wounds Suffered" typeId="d609-4925-74ce-c9fc">10-12</characteristic>
+            <characteristic name="Move" typeId="b499-3cb2-1248-a682">9&quot;</characteristic>
+            <characteristic name="Hooves of Wrack and Ruin" typeId="7f8b-89b1-5e98-4d3a">5</characteristic>
+            <characteristic name="Bellow of Rage" typeId="e1ca-f024-5e1c-6547">4+</characteristic>
+            <characteristic name="Mightiest Makes Rightiest" typeId="a937-e3cd-3916-0eab">25</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3b68-8cf9-c6a7-c530" name="Wounds3" hidden="false" typeId="af09-9242-ca0a-c588" typeName="Kragnos Wound Track">
+          <characteristics>
+            <characteristic name="Wounds Suffered" typeId="d609-4925-74ce-c9fc">13-15</characteristic>
+            <characteristic name="Move" typeId="b499-3cb2-1248-a682">8&quot;</characteristic>
+            <characteristic name="Hooves of Wrack and Ruin" typeId="7f8b-89b1-5e98-4d3a">4</characteristic>
+            <characteristic name="Bellow of Rage" typeId="e1ca-f024-5e1c-6547">3+</characteristic>
+            <characteristic name="Mightiest Makes Rightiest" typeId="a937-e3cd-3916-0eab">20</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dba1-c710-98cb-6f65" name="Wounds4" hidden="false" typeId="af09-9242-ca0a-c588" typeName="Kragnos Wound Track">
+          <characteristics>
+            <characteristic name="Wounds Suffered" typeId="d609-4925-74ce-c9fc">16+</characteristic>
+            <characteristic name="Move" typeId="b499-3cb2-1248-a682">7&quot;</characteristic>
+            <characteristic name="Hooves of Wrack and Ruin" typeId="7f8b-89b1-5e98-4d3a">3</characteristic>
+            <characteristic name="Bellow of Rage" typeId="e1ca-f024-5e1c-6547">2+</characteristic>
+            <characteristic name="Mightiest Makes Rightiest" typeId="a937-e3cd-3916-0eab">18</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b541-a9d2-516e-1fa9" name="Warmaster" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This unit can be included in an Orruk Warclans, Gloomspite Gitz, Ogor Mawtribes or Sons of Behemat army. If it is, it is treated as a general even if it is not the model picked to be the army’s general. In addition, you can still use the army’s allegiance abilities even though this unit is not from the army’s faction; however, this unit does not benefit from them.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0fbc-898a-f7a5-cecd" name="Avatar of Destruction" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If the effect of a spell or ability would slay this model without any wounds or mortal wounds being caused by the spell or ability, this model suffers D6 mortal wounds instead of being slain.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="144e-4046-9a66-705e" name="Bellow of Rage" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the end of any phase, if any wounds were allocated to this unit in that phase, roll a dice for each other unit and each defensible terrain feature within 6&quot; of this unit. If the roll is equal to or greater than the Bellow of Rage value shown on this unit’s damage table, that unit suffers D3 mortal wounds or that defensible terrain feature is demolished.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a879-d5c9-170e-dca8" name="Destroyer of the Draconith Empire" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If a friendly DESTRUCTION unit is wholly within 12&quot; of this unit, you can attempt a charge with that unit if it is within 18&quot; of an enemy unit instead of 12&quot;. In addition, when making a charge roll for a friendly DESTRUCTION unit wholly within 12&quot; of this unit, roll 3D6 instead of 2D6.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7efd-3983-8e0d-45c4" name="Rampaging Destruction" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">After this unit makes a charge move, you can either roll a dice for each enemy unit within 1&quot; of this unit or you can pick 1 enemy MONSTER within 1&quot; of this unit and roll 2D6.
+
+If you roll a dice for each enemy unit within 1&quot; of this unit, on a 2+, that enemy unit suffers D6 mortal wounds.
+
+If you pick 1 enemy MONSTER within 1” of this unit and roll 2D6, on a 7, nothing happens. On any other roll, that enemy MONSTER suffers a number of mortal wounds equal to the score of the dice used for the 2D6 roll multiplied together. For example, a 2D6 roll of 2 and 6 would inflict 12 mortal wounds (2 × 6 = 12).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c43-941e-beba-465f" name="The Shield Inviolate" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This unit has a ward of 6+. In addition, each time this unit is affected by a spell or the abilities of an endless spell, you can roll 3D6. If the roll is greater than the casting value of that spell or the spell used to summon that endless spell, ignore the effect of that spell or the effects of that endless spell’s abilities on this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f8b4-4f83-5e42-196a" name="Kragnos, The End of Empires" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="8655-6213-2824-1752">*</characteristic>
+            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">18</characteristic>
+            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">10</characteristic>
+            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f73e-5482-9347-2fa0" name="Mightiest Makes Rightiest" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">For the purposes of contesting objectives, this unit counts as a number of models equal to the Mightiest Makes Rightiest value on its damage table.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="909e-30cb-8d3a-a248" name="Leader" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
+        <categoryLink id="bc88-3692-ea15-0e1d" name="Behemoth" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
+        <categoryLink id="a358-5391-f37e-e880" name="MONSTER" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
+        <categoryLink id="75f2-a293-2d72-f091" name="HERO" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
+        <categoryLink id="20e1-38bb-c7b0-e090" name="DESTRUCTION" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
+        <categoryLink id="f538-ec75-40ae-bdb7" name="TOTEM" hidden="false" targetId="3504-ea8e-28ec-5150" primary="false"/>
+        <categoryLink id="030d-f573-b058-5bbc" name="DROGRUKH" hidden="false" targetId="0943-b695-320c-b404" primary="false"/>
+        <categoryLink id="3d5b-d258-2a29-e9c1" name="KRAGNOS" hidden="false" targetId="9d2c-4323-5ae9-47f4" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8403-32b7-3a2b-8453" name="The Dread Mace" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3c42-bbbc-7b60-c902" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="677e-f353-8b0d-960a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fd8b-f521-46df-64ad" name="The Dread Mace" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-3</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1cdb-d9d6-25bc-c1ba" name="Hooves of Wrack and Ruin" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c60-dbe6-fe18-84f7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="958e-4732-e77d-3a6d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2662-966f-6f2a-0b81" name="Hooves of Wrack and Ruin" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b8ee-ce24-873d-b632" name="Tuskbreaker" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e103-5363-8290-6790" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ed87-8af4-238e-2d00" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="19d1-9019-f41d-8afe" name="Tuskbreaker" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="bd62-0500-c48d-272e" name="Battalions" hidden="false" collective="false" import="true" targetId="b7cc-3009-cb98-b24f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="720.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="b7cc-3009-cb98-b24f" name="Battalions" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="ad4c-20fb-61ea-d654" name="Core Battalions" hidden="false" collective="false" import="true" targetId="b275-810f-adfc-156b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

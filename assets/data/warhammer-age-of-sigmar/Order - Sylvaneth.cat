@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bf19-727d-9c0f-1c38" name="Order - Sylvaneth" revision="26" battleScribeVersion="2.03" authorName="" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="157" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="bf19-727d-pubN65537" name="Order Battletome: Sylvaneth"/>
+    <publication id="bf19-727d-pubN68286" name="Battletome: Sylvaneth Errata, July 2018"/>
+    <publication id="bf19-727d-pubN70075" name="Grand Alliance: Order"/>
+    <publication id="3eb3-ef35-59aa-b7e2" name="Battletome: Sylvaneth 2019"/>
+  </publications>
+  <entryLinks>
+    <entryLink id="7332-f387-438b-852c" name="Allegiance" hidden="false" collective="false" import="true" targetId="6892-294f-1dab-882a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="63f1-ce1d-59d8-1ab8" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="579c-91a0-34ef-7695" name="Dryads" hidden="false" collective="false" import="true" targetId="0a14-90fc-1335-3c79" type="selectionEntry"/>
+    <entryLink id="a917-8b3f-13dd-fdb0" name="Treelord" hidden="false" collective="false" import="true" targetId="0861-c6bd-bf12-f2f4" type="selectionEntry"/>
+    <entryLink id="cb07-9429-0350-ed6d" name="Branchwraith [LEGENDS]" hidden="true" collective="false" import="true" targetId="67ae-bbfe-04fe-0e20" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5c9-2d9a-2ffb-edd5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="032c-12a5-306a-a6af" name="Branchwych" hidden="false" collective="false" import="true" targetId="d65c-84f8-43bf-d534" type="selectionEntry"/>
+    <entryLink id="c455-f8d5-943e-4325" name="Alarielle the Everqueen" hidden="false" collective="false" import="true" targetId="4d73-8d1e-89ba-a66a" type="selectionEntry"/>
+    <entryLink id="675d-d230-7d9b-df9f" name="Drycha Hamadreth" hidden="false" collective="false" import="true" targetId="02a8-7840-22ef-b8f5" type="selectionEntry"/>
+    <entryLink id="5113-8d32-f491-b44f" name="Spirit of Durthu" hidden="false" collective="false" import="true" targetId="ef77-af66-26da-3a02" type="selectionEntry"/>
+    <entryLink id="b30d-4c63-41c1-cee3" name="Treelord Ancient" hidden="false" collective="false" import="true" targetId="524f-f49b-0bfd-9414" type="selectionEntry"/>
+    <entryLink id="aeb2-3749-c88f-4b1f" name="Kurnoth Hunters with Greatbows" hidden="false" collective="false" import="true" targetId="e14d-00c2-5ed8-220a" type="selectionEntry"/>
+    <entryLink id="7a9e-fb2a-245b-32b0" name="Spite-Revenants" hidden="false" collective="false" import="true" targetId="b487-315c-b64c-88b0" type="selectionEntry"/>
+    <entryLink id="2856-894a-9c9a-d34a" name="Tree-Revenants" hidden="false" collective="false" import="true" targetId="a74a-7377-3ed9-0f5e" type="selectionEntry"/>
+    <entryLink id="0e07-9e7f-b4c5-c1e6" name="Sylvaneth Warscroll Battalion: Forest Folk" hidden="false" collective="false" import="true" targetId="756d-d96e-e298-5558" type="selectionEntry"/>
+    <entryLink id="87c4-e572-1533-432e" name="Sylvaneth Warscroll Battalion: Free Spirits" hidden="false" collective="false" import="true" targetId="f852-7524-198b-2957" type="selectionEntry"/>
+    <entryLink id="cdd3-a4a3-5aec-3a32" name="Sylvaneth Warscroll Battalion: Household" hidden="false" collective="false" import="true" targetId="d141-06d7-9c9e-d410" type="selectionEntry"/>
+    <entryLink id="c72d-f098-71b0-4fd8" name="Sylvaneth Core Battalion: Lords of the Clan" hidden="false" collective="false" import="true" targetId="3388-e687-3bd2-98a8" type="selectionEntry"/>
+    <entryLink id="e57d-34a5-28d3-4d3e" name="Sylvaneth Warscroll Battalion: Outcasts" hidden="false" collective="false" import="true" targetId="471d-38f0-5388-84a0" type="selectionEntry"/>
+    <entryLink id="e8c3-cddb-a2b1-6b71" name="Arch-Revenant" hidden="false" collective="false" import="true" targetId="ff4d-f06f-e2c4-9513" type="selectionEntry"/>
+    <entryLink id="2cc0-a7b7-76e4-501c" name="Ylthari" hidden="false" collective="false" import="true" targetId="87c1-5306-8bdd-b182" type="selectionEntry"/>
+    <entryLink id="6ece-4271-e7b8-400c" name="Ylthari&apos;s Guardians" hidden="false" collective="false" import="true" targetId="2b90-c828-a79b-d060" type="selectionEntry"/>
+    <entryLink id="da69-e929-4f5d-4dd1" name="Awakened Wyldwood" hidden="false" collective="false" import="true" targetId="3d16-0108-0433-c4e8" type="selectionEntry"/>
+    <entryLink id="e8d3-d158-498c-b479" name="Skaeth&apos;s Wild Hunt" hidden="false" collective="false" import="true" targetId="02f2-388c-b66b-5159" type="selectionEntry"/>
+    <entryLink id="1c10-f603-697d-ce37" name="Bundo Whalebiter - Kraken-Eater Mercenary" hidden="false" collective="false" import="true" targetId="efae-6133-d899-a7e4" type="selectionEntry"/>
+    <entryLink id="d284-fd33-e61f-de57" name="Sylvaneth Warscroll Battalion: Lords of the Clan" hidden="false" collective="false" import="true" targetId="daeb-d5d0-700a-2f3b" type="selectionEntry"/>
+    <entryLink id="23b1-3766-f248-d3cb" name="Qualthis the Exile" hidden="true" collective="false" import="true" targetId="0cfa-6bb4-aff9-148b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5c9-2d9a-2ffb-edd5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="77e9-631e-8655-6587" name="Warsong Revenant" hidden="false" collective="false" import="true" targetId="17d6-310e-d190-28e7" type="selectionEntry"/>
+    <entryLink id="315a-9278-73aa-8b67" name="Kurnoth Hunters with Greatswords" hidden="false" collective="false" import="true" targetId="22da-4eb1-f286-36f7" type="selectionEntry"/>
+    <entryLink id="b417-82d0-25e6-6b86" name="Kurnoth Hunters with Scythes" hidden="false" collective="false" import="true" targetId="98e8-f568-7bb1-0fbb" type="selectionEntry"/>
+    <entryLink id="1b47-2263-07dc-5291" name="Grand Strategy" hidden="false" collective="false" import="true" targetId="5b4b-1068-d69a-cb7b" type="selectionEntry"/>
+    <entryLink id="05ba-ef8a-21d6-7497" name="Endless Spell: Gladewyrm" hidden="false" collective="false" import="true" targetId="73df-6f75-0305-e904" type="selectionEntry"/>
+    <entryLink id="c94c-5a88-b42d-fac5" name="Endless Spell: Spiteswarm Hive" hidden="false" collective="false" import="true" targetId="9fce-2cb8-edb7-8908" type="selectionEntry"/>
+    <entryLink id="5140-84da-68ed-6229" name="Endless Spell: Vengeful Skullroot" hidden="false" collective="false" import="true" targetId="14b8-35fa-643d-6576" type="selectionEntry"/>
+    <entryLink id="1e44-ba63-46da-09f7" name="The Lady of Vines" hidden="false" collective="false" import="true" targetId="5ac4-2ff5-4daf-6ffd" type="selectionEntry"/>
+    <entryLink id="3443-a7eb-4d5c-1a7f" name="Gossamid Archers" hidden="false" collective="false" import="true" targetId="1e4c-a6ea-f4f8-9885" type="selectionEntry"/>
+    <entryLink id="887e-d69b-d914-d1a5" name="Revenant Seekers" hidden="false" collective="false" import="true" targetId="da40-7e35-25b5-c1b4" type="selectionEntry"/>
+    <entryLink id="1420-174a-90c5-4acc" name="Spiterider Lancers" hidden="false" collective="false" import="true" targetId="1de6-4be2-bf97-326b" type="selectionEntry"/>
+    <entryLink id="f35b-59e7-f045-b9f0" name="Seasons of War" hidden="false" collective="false" import="true" targetId="7118-26c2-ccea-7e63" type="selectionEntry"/>
+    <entryLink id="50d4-2000-4aa1-5c0e" name="Battle Tactics: Song of War" hidden="false" collective="false" import="true" targetId="1295-7081-d7bd-f08c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4819-8147-0e7a-05e4" name="New CategoryLink" hidden="false" targetId="1974-3f49-7f0b-8422" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="31c1-cd88-cb78-8f8a" name="Regiment of Renown - Norgrimm&apos;s Rune Throng" hidden="false" collective="false" import="true" targetId="9553-8763-ddc2-a840" type="selectionEntry"/>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="56c2-4799-155b-2437" name="Order - Sylvaneth - Data" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="8e1e-6920-29da-9fc2" name="Destruction - Sons of Behemat" targetId="f904-b52f-810a-e446" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="6585-17e7-148c-f5cf" name="Endless Spells" targetId="f0db-356d-9f9f-662d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="833a-765b-2a2f-48ab" name="Regiments of Renown" targetId="33cf-d309-6df3-50d6" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
