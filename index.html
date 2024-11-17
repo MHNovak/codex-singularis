@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>Codex:Singularis</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <!-- <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png"> -->
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="/assets/css/bootstrap5.min.css"> -->
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"> -->
+	<!-- Icons -->
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> -->
+	<link rel="stylesheet" href="/assets/css/bootstrap-icons.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="/assets/css/custom.css">
+	<!-- <link rel="stylesheet" href="custom.css"> -->
+    
+    <!-- ====== js ====== -->
+	<script src="main.js" defer></script>
+	<!-- <script src="main.min.js" defer></script> -->
+	
+	<!-- file handling utilities -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.4/jszip.min.js" async></script>
+	<!-- <script defer src="https://cdn.rawgit.com/eligrey/FileSaver.js/5ed507ef8aa53d8ecfea96d96bc7214cd2476fd2/FileSaver.min.js"></script> -->
+	
+	<!-- <link rel="alternate" type="application/rss+xml" href="feed.xml" /> -->
+    
+	<script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="fd0fed21-1387-4591-b743-79f7cd83339d" async></script>
+    
+	
+</head>
+
+<body>
+<div class="px-lg-4">
+	<div class="center mt-4 d-flex align-items-baseline">
+		<a href="./" class="top-link">
+			<h1> codex:Singularis</h1>
+		</a>
+	</div>
+	<div id="h1-follower" class="text-muted ml-1">Knowledge is power, guard it well...
+		<i id="i-inv" class="bi-plus-lg d-none"></i>  <!-- invisible icon to force load -->
+	</div>
+	
+			
+	<!-- ------------- Roster Editor ------------- -->
+	<!-- <div class=" my-3"> -->
+		<!-- <div class="w-100"> -->
+			<!-- <div class="card"> -->
+				<div class="container-fluid mt-4">
+					<!-- <div class="row px-3"> -->
+						<!-- <h5>Edit Roster</h5> -->
+						<!-- <button type="button" id="rosterAddForce" onclick="showAddForce()" class="btn btn-sm btn-dark" disabled>+ Add Force</button> -->
+					<!-- </div> -->
+					<div class="row slide-wrapper">
+					<!-- <div class="slide-wrapper"> -->
+					
+					
+						<!-- Left panel, with slide wrapper -->
+						<div id="lp" class="col-md-4 bg-light panel LP d-md-block">
+						
+							
+							<!-- New or import roster -->
+							<form id="newOrImportForm" class="my-4 mx-2">
+								<h5 class="my-3">Create a New Roster</h5>
+								
+								<div class="row my-3 justify-content-center">
+									<button type="button" id="blankRosBtn" class="btn btn-sm btn-secondary mx-2  col-5">New Roster</button>
+									<button type="button" id="importRosBtn" class="btn btn-sm btn-outline-secondary mx-2 col-5">Import ros/rosz</button>
+								</div>
+							</form>
+							
+							
+							<!-- Select game system -->
+							<form id="gameSelectForm" class="my-4 mx-2 d-none">
+								<h5 class="my-3">Configure New Roster</h5>
+								
+								<div class="fg mb-3">
+									<label for="gameSelect" class="form-label">Select game system:</label>
+									<select class="form-select form-control py-1" id="gameSelect" >
+									  <option selected value="unselected">Available games..</option>
+									  <option>Something went wrong</option>
+									</select>
+								</div>
+								
+								<div class="fg mb-3">
+									<label for="rosterName" class="form-label">Choose roster name:</label>
+									<input type="text" placeholder="New Roster" class="form-control py-1" id="rosterName" >
+									</input>
+								</div>
+								
+								<div class="row my-3 justify-content-center">
+									<button type="button" id="gameSelectBtn" class="btn btn-sm btn-secondary mx-2  col-5" disabled>Continue</button>
+									<button type="button" id="cancelNewRosBtn" class="btn btn-sm btn-outline-secondary mx-2 col-5">Cancel</button>
+								</div>
+							</form>
+							
+							<!-- Roster upload form -->
+							<form id="rosUploadForm" class="my-4 mx-2 d-none">
+								<h5 class="my-3">Import Existing Roster</h5>
+							
+								<div class="fg mb-3">
+									<label class="form-label" for="fileUpload">Select your roster file</label>
+									<!-- <input type="file" class="form-control" id="fileUpload" /> -->
+									<div class="input_container">
+										<input type="file" id="fileUpload" accept=".ros,.rosz">
+									</div>
+									
+									<div id="helpText" class="form-text">Supports .ros and .rosz</div>
+									
+								</div>
+								
+								<div class="row my-3 justify-content-center">
+									<button type="button" id="importBtn" class="btn btn-sm btn-secondary mx-2  col-5" disabled>Continue</button>
+									<button type="button" id="cancelImportBtn" class="btn btn-sm btn-outline-secondary mx-2 col-5">Cancel</button>
+								</div>
+								
+							</form>
+							
+							
+							<!-- LP Inner header -->
+							<div class="sticky-header list-group list-group-root d-none" id="LP-inner-header">
+								<a class="list-group-item list-group-item-action panel-header" href="#roster" id="LP:header">
+									<div class="d-flex justify-content-start align-items-center">
+										<i id="LP-return" class="bi-arrow-left return-arrow d-none d-md-none"></i>
+										<div class="d-flex flex-wrap flex-shrink-1 text-truncate align-items-baseline">
+											<div id="LP-header-title" class="pr-1 title"></div>
+											<div id="LP-header-subtitle" class="subtitle"></div>
+										</div>
+										<div class="ml-auto">
+											<button type="button" id="rosterAddForce" class="btn btn-outline-light b-small force-open" >
+												<span><i class="bi-plus-lg"></i></span>
+												<span id="addForceHint" class="appear force-open">Add Force</span>
+											</button>
+										</div>
+									</div>
+								</a>
+							</div>
+						
+						
+							<!-- Add force card & instructions -->
+							<!-- <div class="card"> -->
+							<div id="addForceInitial" class="card-body d-none">
+								<h5 class="card-title text-right">
+									Add a force to begin
+									<i class="bi bi-arrow-up" style="margin-left:.4em"></i>
+								</h5>
+							</div>
+								<!-- <div id="addForceFormCard" class="card-body"> -->
+									
+							<form id="addForceForm" class="d-none my-4 mx-2">
+								<h6 class="my-3">Configure Force:</h6>
+								<!-- <div class="fg mb-3">
+									<label for="forceScope" class="form-label">Add force to:</label>
+									<select class="form-select form-control py-1" id="forceScope" oninput="updateForceForm()">
+									  <option selected>Roster</option>
+									</select>
+								</div> -->
+								
+								<div class="fg mb-3">
+									<label for="forceFaction" class="form-label">Faction:</label>
+									<select class="form-select form-control py-1" id="forceFaction">
+									  <option selected>Loading factions..</option>
+									</select>
+								</div>
+								
+								<div class="fg mb-3">
+									<label for="forceType" class="form-label">Force type:</label>
+									<select class="form-select form-control py-1" id="forceType">
+									  <option selected>Loading types..</option>
+									</select>
+								</div>
+								
+								<div class="row my-3 justify-content-center">
+									<button type="button" id="submitForceBtn" class="btn btn-sm btn-secondary mx-2 col-5" disabled>Add Force</button>
+									<button type="button" id="cancelForceBtn" class="btn btn-sm btn-outline-secondary mx-2 col-5">Cancel</button>
+								</div>
+							</form>
+							
+							<!-- Left panel catalogue -->
+							<div class="list-group list-group-root" id="left-menu">
+								
+								<!-- lists built in js -->
+								
+							</div>
+						</div>
+						
+						
+						
+						<!-- Center panel, main roster view -->
+						<div id="cp" class="col-md-4 panel bg-light d-md-block">
+							<!-- Inner header -->
+							<div class="sticky-header list-group list-group-root d-none" id="CP-inner-header">
+								<a class="list-group-item list-group-item-action panel-header" href="#roster" id="CP:header">
+									<div class="d-flex justify-content-start align-items-center">
+										<div class="d-flex flex-wrap flex-shrink-1 text-truncate align-items-baseline mr-auto">
+											<!-- <div id="CP-error-count" class="title">13 </div> -->
+											<!-- <i id="CP-error-icon" class="bi-exclamation-diamond-fill"></i> -->
+											<div id="CP-header-title" class="pr-1 title">New Roster</div>
+											<div id="CP-header-subtitle" class="subtitle"></div>
+										</div>
+										
+										<div class="ml-auto d-md-none">
+											<button type="button" id="rosterAddUnit" class="btn btn-outline-light b-small force-open" >
+												<span><i class="bi-plus-lg"></i></span>
+												<span id="addUnitHint" class="appear force-open">Add Unit</span>
+											</button>
+										</div>
+										
+									</div>
+								</a>
+							</div>
+							<div class="list-group list-group-root" id="center-menu">
+								<!-- lists built in js -->
+							</div>
+						</div>
+						
+						
+						<!-- Right panel, options -->
+						<div id="rp" class="col-md-4 panel bg-light d-md-block slide-off">
+							<div id="rp-all" class="px-2 d-none">
+								
+								<!-- Inner header -->
+							<div class="sticky-header bg-light list-group list-group-root" id="RP-inner-header">
+								<!-- <a class="list-group-item list-group-item-action panel-header" href="#roster" id="CP:header"> -->
+									<div class="d-flex justify-content-start align-items-center">
+										<i id="RP-return" class="bi-arrow-left return-arrow d-md-none"></i>
+										<div class="d-flex flex-wrap flex-shrink-1 text-truncate align-items-baseline mr-auto">
+											<!-- <div id="CP-error-count" class="title">13 </div> -->
+											<!-- <i id="CP-error-icon" class="bi-exclamation-diamond-fill"></i> -->
+											<div id="rp-titletext" class="pr-1 title">New Roster</div>
+											<div id="rp-titlecost" class="subtitle cost"></div>
+										</div>
+									</div>
+								<!-- </a> -->
+							</div>
+								
+								
+								<!-- <div id="rp-titletext" class="title"> -->
+									<!-- Title Text -->
+								<!-- </div> -->
+								<!-- <div id="rp-costinfo" class=""> -->
+								<!-- </div> -->
+								<div id="rp-errors" class="mb-3 list-group list-group-root">
+								</div>
+								<div id="rp-formarea" class="mb-3" >
+									
+									<!-- forms built in js  -->
+									
+									
+								</div>
+								<div id="rp-stats" class="text-muted" style="font-size: .9rem;">
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- </div> -->
+					
+				</div>
+			<!-- </div> -->
+		<!-- </div> -->
+		
+		
+		
+	<!-- </div> -->
+</div>
+	
+</body>
+</html>
