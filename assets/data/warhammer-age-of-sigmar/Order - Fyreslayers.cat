@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e67a-06d2-888c-b9be" name="Order - Fyreslayers" revision="42" battleScribeVersion="2.03" authorName="" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="157" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="7332-f387-438b-852c" name="Allegiance" hidden="false" collective="false" import="true" targetId="8e35-cdef-4c7e-0a1c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="5cd2-1981-b014-55f1" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7120-dd67-2406-b09e" name="Auric Hearthguard" hidden="false" collective="false" import="true" targetId="1823-43dd-1af2-b910" type="selectionEntry"/>
+    <entryLink id="3614-3d9e-2a65-870a" name="Vulkite Berzerkers with Fyresteel Handaxes" hidden="false" collective="false" import="true" targetId="5380-8f39-8882-eae7" type="selectionEntry"/>
+    <entryLink id="9b1f-f3d5-d60c-4928" name="Auric Runefather" hidden="false" collective="false" import="true" targetId="88ae-2998-b72a-3f1c" type="selectionEntry"/>
+    <entryLink id="76a2-4dd5-f268-5295" name="Auric Runefather on Magmadroth" hidden="false" collective="false" import="true" targetId="d62c-b254-872a-3500" type="selectionEntry"/>
+    <entryLink id="50e1-55a1-6161-73a0" name="Auric Runemaster" hidden="false" collective="false" import="true" targetId="c0aa-7e29-3be9-8fa5" type="selectionEntry"/>
+    <entryLink id="ffa3-15f6-3db2-0db6" name="Auric Runesmiter" hidden="false" collective="false" import="true" targetId="79fb-4a68-797b-95ed" type="selectionEntry"/>
+    <entryLink id="31a8-6ffa-dc75-d6a7" name="Auric Runesmiter on Magmadroth" hidden="false" collective="false" import="true" targetId="92c5-8b9d-f3e2-20e5" type="selectionEntry"/>
+    <entryLink id="8e53-271a-fc6b-e7a3" name="Auric Runeson on Magmadroth" hidden="false" collective="false" import="true" targetId="6dae-8546-4e7f-f420" type="selectionEntry"/>
+    <entryLink id="13ba-0eda-7dbf-c742" name="Auric Runeson" hidden="false" collective="false" import="true" targetId="54ed-538a-5a83-cbaa" type="selectionEntry"/>
+    <entryLink id="dbbe-dc0e-45f1-b8f5" name="Battlesmith" hidden="false" collective="false" import="true" targetId="f45a-1818-8096-1147" type="selectionEntry"/>
+    <entryLink id="dd1c-6bf9-1082-ae35" name="Hearthguard Berzerkers" hidden="false" collective="false" import="true" targetId="3973-d948-c464-bddc" type="selectionEntry"/>
+    <entryLink id="20b8-5034-a91e-c8eb" name="Grimwrath Berzerker" hidden="false" collective="false" import="true" targetId="0520-eb44-5bea-94d3" type="selectionEntry"/>
+    <entryLink id="1b12-caa7-a67c-e0ff" name="Fyreslayers Warscroll Battalion: Forge Brethren" hidden="false" collective="false" import="true" targetId="4745-50ef-230b-cd0f" type="selectionEntry"/>
+    <entryLink id="a7a9-7827-4950-5aa3" name="Fyreslayers Warscroll Battalion: Lords of the Lodge" hidden="false" collective="false" import="true" targetId="86c5-e66e-8180-8a6b" type="selectionEntry"/>
+    <entryLink id="8115-6367-cec2-8793" name="Fyreslayers Warscroll Battalion: Warrior Kinband" hidden="false" collective="false" import="true" targetId="0638-0925-ef33-408d" type="selectionEntry"/>
+    <entryLink id="64e8-0ad4-4e97-5114" name="Doomseeker" hidden="false" collective="false" import="true" targetId="5480-a1cb-81b1-45c7" type="selectionEntry"/>
+    <entryLink id="2e26-98ba-5555-8d3a" name="Fjul-Grimnir" hidden="false" collective="false" import="true" targetId="40af-3522-0296-167c" type="selectionEntry"/>
+    <entryLink id="f4cd-63e2-3d00-668a" name="The Chosen Axes" hidden="false" collective="false" import="true" targetId="3544-cf2b-f1ab-8663" type="selectionEntry"/>
+    <entryLink id="bdae-4f74-d004-f0da" name="Magmic Battleforge" hidden="false" collective="false" import="true" targetId="9a34-4e73-b5a5-7b71" type="selectionEntry"/>
+    <entryLink id="7eb8-af59-a3fd-f189" name="Magmic Invocation: Zharrgron Flame Spitter" hidden="false" collective="false" import="true" targetId="09c6-5753-f3b3-c56c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="94c9-6cd1-da31-5c7e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="296d-cee1-11a3-c859" name="Magmic Invocation: Molten Infernoth" hidden="false" collective="false" import="true" targetId="a210-d353-df95-85b8" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="94c9-6cd1-da31-5c7e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2be4-d4a1-14c0-64a2" name="Magmic Invocation: Runic Fyrewall" hidden="false" collective="false" import="true" targetId="4383-0748-eb3c-ba75" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="94c9-6cd1-da31-5c7e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="72bd-e00b-8b63-d1d0" name="Bael-Grimnir on Flamespitter" hidden="false" collective="false" import="true" targetId="e1cf-9dd6-5f60-15ac" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6171-3137-0d61-9057" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="c7e7-247d-c36a-a65b" name="Gotrek Gurnisson" hidden="false" collective="false" import="true" targetId="24c2-fff5-f17c-3d07" type="selectionEntry"/>
+    <entryLink id="df89-154b-7324-e1d2" name="Bundo Whalebiter - Kraken-Eater Mercenary" hidden="false" collective="false" import="true" targetId="efae-6133-d899-a7e4" type="selectionEntry"/>
+    <entryLink id="3f2e-83e6-3a4f-e282" name="Grand Strategy" hidden="false" collective="false" import="true" targetId="7176-6508-38b6-738e" type="selectionEntry"/>
+    <entryLink id="496e-96d9-4e2f-0f6d" name="Auric Flamekeeper" hidden="false" collective="false" import="true" targetId="a5ad-019d-6c5e-199e" type="selectionEntry"/>
+    <entryLink id="33b9-c802-ed49-00a9" name="Vulkite Berzerkers with Bladed Slingshields" hidden="false" collective="false" import="true" targetId="ca23-fa8e-9458-873d" type="selectionEntry"/>
+    <entryLink id="cbf3-9961-3ade-d0fc" name="Battle Tactics: Oaths of Battle" hidden="false" collective="false" import="true" targetId="9b5d-92de-1b6d-2e5c" type="selectionEntry"/>
+    <entryLink id="5303-9708-e080-2bc8" name="Regiment of Renown - Elthwin&apos;s Thorns" hidden="false" collective="false" import="true" targetId="66f8-b848-40fa-a08d" type="selectionEntry"/>
+    <entryLink id="ba04-2381-c48f-0042" name="Regiment of Renown - Norgrimm&apos;s Rune Throng" hidden="false" collective="false" import="true" targetId="9553-8763-ddc2-a840" type="selectionEntry"/>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="6ee8-f70f-3d75-fac0" name="Order - Fyreslayers - Data" targetId="81cf-7df5-86e6-b78f" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="010f-f920-066f-a719" name="Destruction - Sons of Behemat" targetId="f904-b52f-810a-e446" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="f541-2b2d-3dfe-df7b" name="Endless Spells" targetId="f0db-356d-9f9f-662d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="5057-b7c8-e634-a8ab" name="Regiments of Renown" targetId="33cf-d309-6df3-50d6" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

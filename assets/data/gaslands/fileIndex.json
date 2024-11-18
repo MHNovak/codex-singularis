@@ -1,0 +1,24 @@
+{
+	"gstList": ["55c7-45e5-b4ec-d17c"],
+	"55c7-45e5-b4ec-d17c": {
+		"id": "55c7-45e5-b4ec-d17c",
+		"name": "Gaslands",
+		"filename": "Gaslands.gst",
+		"rev": 25
+	},
+	"0139-7751-4542-5c90": {
+		"id": "0139-7751-4542-5c90",
+		"name": "Gaslands",
+		"filename": "Gaslands.cat",
+		"rev": 3,
+		"linked": [],
+		"gst": "55c7-45e5-b4ec-d17c",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "0139-7751-4542-5c90",
+				"importRoot": true
+			}
+		]
+	}
+}

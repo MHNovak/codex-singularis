@@ -1,0 +1,1381 @@
+{
+	"gstList": ["28ec-711c-d87f-3aeb"],
+	"28ec-711c-d87f-3aeb": {
+		"id": "28ec-711c-d87f-3aeb",
+		"name": "Warhammer 40,000 9th Edition",
+		"filename": "Warhammer 40,000.gst",
+		"rev": 249
+	},
+	"2f0e-dd91-7676-722d": {
+		"id": "2f0e-dd91-7676-722d",
+		"name": "Aeldari - Aeldari Library",
+		"filename": "Aeldari - Aeldari Library.cat",
+		"rev": 165,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"30b2-6f64-b85e-b4dc": {
+		"id": "30b2-6f64-b85e-b4dc",
+		"name": "Aeldari - Craftworlds",
+		"filename": "Aeldari - Craftworlds.cat",
+		"rev": 158,
+		"linked": [
+			{
+				"targetId": "2f0e-dd91-7676-722d",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "30b2-6f64-b85e-b4dc",
+				"importRoot": true
+			},
+			{
+				"id": "2f0e-dd91-7676-722d",
+				"importRoot": true
+			}
+		]
+	},
+	"e0a4-2172-4397-e39a": {
+		"id": "e0a4-2172-4397-e39a",
+		"name": "Aeldari - Drukhari",
+		"filename": "Aeldari - Drukhari.cat",
+		"rev": 150,
+		"linked": [
+			{
+				"targetId": "2f0e-dd91-7676-722d",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "e0a4-2172-4397-e39a",
+				"importRoot": true
+			},
+			{
+				"id": "2f0e-dd91-7676-722d",
+				"importRoot": true
+			}
+		]
+	},
+	"7d24-b92f-c5d5-3bf0": {
+		"id": "7d24-b92f-c5d5-3bf0",
+		"name": "Aeldari - Harlequins",
+		"filename": "Aeldari - Harlequins.cat",
+		"rev": 74,
+		"linked": [
+			{
+				"targetId": "2f0e-dd91-7676-722d",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "7d24-b92f-c5d5-3bf0",
+				"importRoot": true
+			},
+			{
+				"id": "2f0e-dd91-7676-722d",
+				"importRoot": true
+			}
+		]
+	},
+	"5d84-5102-f22c-14d4": {
+		"id": "5d84-5102-f22c-14d4",
+		"name": "Chaos - Chaos Knights",
+		"filename": "Chaos - Chaos Knights.cat",
+		"rev": 87,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "5d84-5102-f22c-14d4",
+				"importRoot": true
+			}
+		]
+	},
+	"cb54-c035-5759-7697": {
+		"id": "cb54-c035-5759-7697",
+		"name": "Chaos - Chaos Space Marines",
+		"filename": "Chaos - Chaos Space Marines.cat",
+		"rev": 222,
+		"linked": [
+			{
+				"targetId": "2128-f196-8f1c-b352",
+				"importRoot": true
+			},
+			{
+				"targetId": "7fe3-1c65-72de-bc5d",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "cb54-c035-5759-7697",
+				"importRoot": true
+			},
+			{
+				"id": "2128-f196-8f1c-b352",
+				"importRoot": true
+			},
+			{
+				"id": "7fe3-1c65-72de-bc5d",
+				"importRoot": true
+			}
+		]
+	},
+	"422a-a40e-3f7c-e8b3": {
+		"id": "422a-a40e-3f7c-e8b3",
+		"name": "Chaos - Daemons",
+		"filename": "Chaos - Daemons.cat",
+		"rev": 148,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "422a-a40e-3f7c-e8b3",
+				"importRoot": true
+			}
+		]
+	},
+	"ce57-cc1c-37cb-cb71": {
+		"id": "ce57-cc1c-37cb-cb71",
+		"name": "Chaos - Death Guard",
+		"filename": "Chaos - Death Guard.cat",
+		"rev": 158,
+		"linked": [
+			{
+				"targetId": "2128-f196-8f1c-b352",
+				"importRoot": true
+			},
+			{
+				"targetId": "7fe3-1c65-72de-bc5d",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "ce57-cc1c-37cb-cb71",
+				"importRoot": true
+			},
+			{
+				"id": "2128-f196-8f1c-b352",
+				"importRoot": true
+			},
+			{
+				"id": "7fe3-1c65-72de-bc5d",
+				"importRoot": true
+			}
+		]
+	},
+	"2128-f196-8f1c-b352": {
+		"id": "2128-f196-8f1c-b352",
+		"name": "Chaos - FW Heretic Astartes",
+		"filename": "Chaos - FW Heretic Astartes.cat",
+		"rev": 86,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"2ebb-7865-3983-640d": {
+		"id": "2ebb-7865-3983-640d",
+		"name": "Chaos - Renegades & Heretics [LEGENDS]",
+		"filename": "Chaos - FW Renegade and Heretics.cat",
+		"rev": 61,
+		"linked": [
+			{
+				"targetId": "a2d9-e3b7-13cc-6f15",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "2ebb-7865-3983-640d",
+				"importRoot": true
+			},
+			{
+				"id": "a2d9-e3b7-13cc-6f15",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"7fe3-1c65-72de-bc5d": {
+		"id": "7fe3-1c65-72de-bc5d",
+		"name": "Chaos - Gellerpox Infected",
+		"filename": "Chaos - Gellerpox Infected.cat",
+		"rev": 12,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"9837-3435-7452-d14b": {
+		"id": "9837-3435-7452-d14b",
+		"name": "Chaos - Servants of the Abyss",
+		"filename": "Chaos - Servants of the Abyss.cat",
+		"rev": 18,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "9837-3435-7452-d14b",
+				"importRoot": true
+			}
+		]
+	},
+	"c553-15f3-3890-be39": {
+		"id": "c553-15f3-3890-be39",
+		"name": "Chaos - Thousand Sons",
+		"filename": "Chaos - Thousand Sons.cat",
+		"rev": 136,
+		"linked": [
+			{
+				"targetId": "2128-f196-8f1c-b352",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "c553-15f3-3890-be39",
+				"importRoot": true
+			},
+			{
+				"id": "2128-f196-8f1c-b352",
+				"importRoot": true
+			}
+		]
+	},
+	"8c3d-93c3-7a7a-5a11": {
+		"id": "8c3d-93c3-7a7a-5a11",
+		"name": "Chaos - Chaos Titan Legions",
+		"filename": "Chaos - Titanicus Traitoris.cat",
+		"rev": 15,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "8c3d-93c3-7a7a-5a11",
+				"importRoot": true
+			}
+		]
+	},
+	"0702-ace1-d159-5c4b": {
+		"id": "0702-ace1-d159-5c4b",
+		"name": "Chaos - World Eaters",
+		"filename": "Chaos - World Eaters.cat",
+		"rev": 6,
+		"linked": [
+			{
+				"targetId": "2128-f196-8f1c-b352",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "0702-ace1-d159-5c4b",
+				"importRoot": true
+			},
+			{
+				"id": "2128-f196-8f1c-b352",
+				"importRoot": true
+			}
+		]
+	},
+	"d541-6e16-d152-db06": {
+		"id": "d541-6e16-d152-db06",
+		"name": "Fallen",
+		"filename": "Fallen.cat",
+		"rev": 21,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"d124-b283-2ff7-beae": {
+		"id": "d124-b283-2ff7-beae",
+		"name": "Imperium - Adepta Sororitas",
+		"filename": "Imperium - Adepta Sororitas.cat",
+		"rev": 214,
+		"linked": [
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "d124-b283-2ff7-beae",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"104e-06dd-4514-8e80": {
+		"id": "104e-06dd-4514-8e80",
+		"name": "Imperium - Adeptus Astra Telepathica",
+		"filename": "Imperium - Adeptus Astra Telepathica.cat",
+		"rev": 22,
+		"linked": [
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": false
+			},
+			{
+				"targetId": "53e9d88f-7463-8c27-fe67-e1a0d1ed0287",
+				"importRoot": false
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "104e-06dd-4514-8e80",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": false
+			},
+			{
+				"id": "53e9d88f-7463-8c27-fe67-e1a0d1ed0287",
+				"importRoot": false
+			},
+			{
+				"id": "62ed-66a0-988c-e34e",
+				"importRoot": true
+			},
+			{
+				"id": "91ff-e116-e0a5-e883",
+				"importRoot": true
+			},
+			{
+				"id": "a2d9-e3b7-13cc-6f15",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"0fb8-6813-9c29-a03d": {
+		"id": "0fb8-6813-9c29-a03d",
+		"name": "Imperium - Adeptus Custodes",
+		"filename": "Imperium - Adeptus Custodes.cat",
+		"rev": 123,
+		"linked": [
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "0fb8-6813-9c29-a03d",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"ebe8-544e-1fe8-fcde": {
+		"id": "ebe8-544e-1fe8-fcde",
+		"name": "Imperium - Adeptus Mechanicus",
+		"filename": "Imperium - Adeptus Mechanicus.cat",
+		"rev": 202,
+		"linked": [
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "ebe8-544e-1fe8-fcde",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"a2d9-e3b7-13cc-6f15": {
+		"id": "a2d9-e3b7-13cc-6f15",
+		"name": "Imperium - Astra Militarum - Library",
+		"filename": "Imperium - Astra Militarum - Library.cat",
+		"rev": 126,
+		"linked": [
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"53e9d88f-7463-8c27-fe67-e1a0d1ed0287": {
+		"id": "53e9d88f-7463-8c27-fe67-e1a0d1ed0287",
+		"name": "Imperium - Astra Militarum",
+		"filename": "Imperium - Astra Militarum.cat",
+		"rev": 324,
+		"linked": [
+			{
+				"targetId": "62ed-66a0-988c-e34e",
+				"importRoot": true
+			},
+			{
+				"targetId": "91ff-e116-e0a5-e883",
+				"importRoot": true
+			},
+			{
+				"targetId": "a2d9-e3b7-13cc-6f15",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "53e9d88f-7463-8c27-fe67-e1a0d1ed0287",
+				"importRoot": true
+			},
+			{
+				"id": "62ed-66a0-988c-e34e",
+				"importRoot": true
+			},
+			{
+				"id": "91ff-e116-e0a5-e883",
+				"importRoot": true
+			},
+			{
+				"id": "a2d9-e3b7-13cc-6f15",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"9419-6862-0e60-6eb3": {
+		"id": "9419-6862-0e60-6eb3",
+		"name": "Imperium - Adeptus Astartes - Black Templars",
+		"filename": "Imperium - Black Templars.cat",
+		"rev": 29,
+		"linked": [
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "9419-6862-0e60-6eb3",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"7472-4b9e-c2fe-e071": {
+		"id": "7472-4b9e-c2fe-e071",
+		"name": "Imperium - Blackstone Fortress",
+		"filename": "Imperium - Blackstone Fortress.cat",
+		"rev": 11,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "7472-4b9e-c2fe-e071",
+				"importRoot": true
+			}
+		]
+	},
+	"eb0f-c144-a282-8bdc": {
+		"id": "eb0f-c144-a282-8bdc",
+		"name": "Imperium - Adeptus Astartes - Blood Angels",
+		"filename": "Imperium - Blood Angels.cat",
+		"rev": 265,
+		"linked": [
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"targetId": "dab7-e076-dd5e-d8aa",
+				"importRoot": true
+			},
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "eb0f-c144-a282-8bdc",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "dab7-e076-dd5e-d8aa",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"b8fe-8d38-37ec-90e8": {
+		"id": "b8fe-8d38-37ec-90e8",
+		"name": "Imperium - Adeptus Astartes - Dark Angels",
+		"filename": "Imperium - Dark Angels.cat",
+		"rev": 269,
+		"linked": [
+			{
+				"targetId": "dab7-e076-dd5e-d8aa",
+				"importRoot": true
+			},
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "b8fe-8d38-37ec-90e8",
+				"importRoot": true
+			},
+			{
+				"id": "dab7-e076-dd5e-d8aa",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"203b-f8dd-2a64-2676": {
+		"id": "203b-f8dd-2a64-2676",
+		"name": "Imperium - Adeptus Astartes - Deathwatch",
+		"filename": "Imperium - Deathwatch.cat",
+		"rev": 181,
+		"linked": [
+			{
+				"targetId": "dab7-e076-dd5e-d8aa",
+				"importRoot": true
+			},
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "203b-f8dd-2a64-2676",
+				"importRoot": true
+			},
+			{
+				"id": "dab7-e076-dd5e-d8aa",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"dab7-e076-dd5e-d8aa": {
+		"id": "dab7-e076-dd5e-d8aa",
+		"name": "Imperium - FW Adeptus Astartes",
+		"filename": "Imperium - FW Adeptus Astartes.cat",
+		"rev": 105,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"91ff-e116-e0a5-e883": {
+		"id": "91ff-e116-e0a5-e883",
+		"name": "Imperium - Death Korps of Krieg",
+		"filename": "Imperium - FW Death Korps of Krieg.cat",
+		"rev": 164,
+		"linked": [
+			{
+				"targetId": "a2d9-e3b7-13cc-6f15",
+				"importRoot": false
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"62ed-66a0-988c-e34e": {
+		"id": "62ed-66a0-988c-e34e",
+		"name": "Imperium - Elysian Drop Troops",
+		"filename": "Imperium - FW Elysians.cat",
+		"rev": 105,
+		"linked": [
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "a2d9-e3b7-13cc-6f15",
+				"importRoot": false
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"0cc2-3545-6762-a3f7": {
+		"id": "0cc2-3545-6762-a3f7",
+		"name": "Imperium - Grey Knights",
+		"filename": "Imperium - Grey Knights.cat",
+		"rev": 118,
+		"linked": [
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "0cc2-3545-6762-a3f7",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"0b92-701a-704e-2d9f": {
+		"id": "0b92-701a-704e-2d9f",
+		"name": "Imperium - Adeptus Astartes - Imperial Fists",
+		"filename": "Imperium - Imperial Fists.cat",
+		"rev": 63,
+		"linked": [
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "0b92-701a-704e-2d9f",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"82cd-d24f-9f22-11f3": {
+		"id": "82cd-d24f-9f22-11f3",
+		"name": "Imperium - Imperial Knights",
+		"filename": "Imperium - Imperial Knights.cat",
+		"rev": 114,
+		"linked": [
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "82cd-d24f-9f22-11f3",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"8245-63be-d7bd-d042": {
+		"id": "8245-63be-d7bd-d042",
+		"name": "Imperium - Imperial Navy",
+		"filename": "Imperium - Imperial Navy.cat",
+		"rev": 8,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"e373-3c0a-1185-46ea": {
+		"id": "e373-3c0a-1185-46ea",
+		"name": "Imperium - Agents of the Imperium",
+		"filename": "Imperium - Inquisition.cat",
+		"rev": 91,
+		"linked": [
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"targetId": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"5b3d-59c0-a550-452a": {
+		"id": "5b3d-59c0-a550-452a",
+		"name": "Imperium - Adeptus Astartes - Iron Hands",
+		"filename": "Imperium - Iron Hands.cat",
+		"rev": 62,
+		"linked": [
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "5b3d-59c0-a550-452a",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"d360-802a-45b3-4f4a": {
+		"id": "d360-802a-45b3-4f4a",
+		"name": "Imperium - Legion of the Damned",
+		"filename": "Imperium - Legion of the Damned.cat",
+		"rev": 12,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "d360-802a-45b3-4f4a",
+				"importRoot": true
+			}
+		]
+	},
+	"f731-6aa6-c141-8937": {
+		"id": "f731-6aa6-c141-8937",
+		"name": "Imperium - Officio Assassinorum",
+		"filename": "Imperium - Officio Assassinorum.cat",
+		"rev": 31,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"9503-9e14-1988-91a4": {
+		"id": "9503-9e14-1988-91a4",
+		"name": "Imperium - Adeptus Astartes - Raven Guard",
+		"filename": "Imperium - Raven Guard.cat",
+		"rev": 60,
+		"linked": [
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "9503-9e14-1988-91a4",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"4501-8439-ec2c-efad": {
+		"id": "4501-8439-ec2c-efad",
+		"name": "Imperium - Adeptus Astartes - Salamanders",
+		"filename": "Imperium - Salamanders.cat",
+		"rev": 61,
+		"linked": [
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "4501-8439-ec2c-efad",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"846d-3c14-21fc-369f": {
+		"id": "846d-3c14-21fc-369f",
+		"name": "Imperium - Space Marines",
+		"filename": "Imperium - Space Marines.cat",
+		"rev": 314,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": true
+	},
+	"24b6-2b46-0063-2867": {
+		"id": "24b6-2b46-0063-2867",
+		"name": "Imperium - Adeptus Astartes - Space Wolves",
+		"filename": "Imperium - Space Wolves.cat",
+		"rev": 238,
+		"linked": [
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "24b6-2b46-0063-2867",
+				"importRoot": true
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"f944-98a5-b73d-f132": {
+		"id": "f944-98a5-b73d-f132",
+		"name": "Imperium - Titan Legions",
+		"filename": "Imperium - Titan Legions.cat",
+		"rev": 19,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "f944-98a5-b73d-f132",
+				"importRoot": true
+			}
+		]
+	},
+	"28e2-d179-3d66-a272": {
+		"id": "28e2-d179-3d66-a272",
+		"name": "Imperium - Adeptus Astartes - Ultramarines",
+		"filename": "Imperium - Ultramarines.cat",
+		"rev": 75,
+		"linked": [
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "28e2-d179-3d66-a272",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"c010-4da2-5a55-a3be": {
+		"id": "c010-4da2-5a55-a3be",
+		"name": "Imperium - Adeptus Astartes - White Scars",
+		"filename": "Imperium - White Scars.cat",
+		"rev": 60,
+		"linked": [
+			{
+				"targetId": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"targetId": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"targetId": "f731-6aa6-c141-8937",
+				"importRoot": true
+			}
+		],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "c010-4da2-5a55-a3be",
+				"importRoot": true
+			},
+			{
+				"id": "846d-3c14-21fc-369f",
+				"importRoot": false
+			},
+			{
+				"id": "e373-3c0a-1185-46ea",
+				"importRoot": true
+			},
+			{
+				"id": "f731-6aa6-c141-8937",
+				"importRoot": true
+			},
+			{
+				"id": "8245-63be-d7bd-d042",
+				"importRoot": true
+			}
+		]
+	},
+	"787f-957c-4fe1-4648": {
+		"id": "787f-957c-4fe1-4648",
+		"name": "Leagues of Votann",
+		"filename": "Leagues of Votann.cat",
+		"rev": 19,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "787f-957c-4fe1-4648",
+				"importRoot": true
+			}
+		]
+	},
+	"61c6-c8c5-a304-ff5f": {
+		"id": "61c6-c8c5-a304-ff5f",
+		"name": "Necrons",
+		"filename": "Necrons.cat",
+		"rev": 123,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "61c6-c8c5-a304-ff5f",
+				"importRoot": true
+			}
+		]
+	},
+	"3bba-af85-a93c-6bdf": {
+		"id": "3bba-af85-a93c-6bdf",
+		"name": "Orks",
+		"filename": "Orks.cat",
+		"rev": 76,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "3bba-af85-a93c-6bdf",
+				"importRoot": true
+			}
+		]
+	},
+	"c0bb-c0cd-a715-99c6": {
+		"id": "c0bb-c0cd-a715-99c6",
+		"name": "T'au Empire",
+		"filename": "T'au Empire.cat",
+		"rev": 147,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "c0bb-c0cd-a715-99c6",
+				"importRoot": true
+			}
+		]
+	},
+	"83b2-e602-931a-fea1": {
+		"id": "83b2-e602-931a-fea1",
+		"name": "Tyranids - Genestealer Cults",
+		"filename": "Tyranids - Genestealer Cults.cat",
+		"rev": 87,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "83b2-e602-931a-fea1",
+				"importRoot": true
+			}
+		]
+	},
+	"7150-5917-ae80-68c5": {
+		"id": "7150-5917-ae80-68c5",
+		"name": "Tyranids",
+		"filename": "Tyranids.cat",
+		"rev": 116,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "7150-5917-ae80-68c5",
+				"importRoot": true
+			}
+		]
+	},
+	"c362-10c1-e4a1-a922": {
+		"id": "c362-10c1-e4a1-a922",
+		"name": "Unaligned - Monsters and Gribblies",
+		"filename": "Unaligned - Monsters and Gribblies.cat",
+		"rev": 10,
+		"linked": [],
+		"gst": "28ec-711c-d87f-3aeb",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "c362-10c1-e4a1-a922",
+				"importRoot": true
+			}
+		]
+	}
+}

@@ -1,0 +1,2153 @@
+{
+	"gstList": ["e51d-b1a3-75fc-dc33"],
+	"e51d-b1a3-75fc-dc33": {
+		"id": "e51d-b1a3-75fc-dc33",
+		"name": "Age of Sigmar",
+		"filename": "Age of Sigmar.gst",
+		"rev": 161
+	},
+	"a990-882b-7e62-27e9": {
+		"id": "a990-882b-7e62-27e9",
+		"name": "Chaos - Beasts of Chaos - Data",
+		"filename": "Chaos - Beasts of Chaos - Data.cat",
+		"rev": 106,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"c9b2-1fe6-2c3e-3b27": {
+		"id": "c9b2-1fe6-2c3e-3b27",
+		"name": "Chaos - Beasts of Chaos",
+		"filename": "Chaos - Beasts of Chaos.cat",
+		"rev": 28,
+		"linked": [
+			{
+				"targetId": "a990-882b-7e62-27e9",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": false
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "c9b2-1fe6-2c3e-3b27",
+				"importRoot": true
+			},
+			{
+				"id": "a990-882b-7e62-27e9",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": false
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"cac4-1eec-d548-b34d": {
+		"id": "cac4-1eec-d548-b34d",
+		"name": "Chaos - Khorne",
+		"filename": "Chaos - Khorne.cat",
+		"rev": 121,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"targetId": "a990-882b-7e62-27e9",
+				"importRoot": true
+			},
+			{
+				"targetId": "e0d8-b631-6934-ee34",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "cac4-1eec-d548-b34d",
+				"importRoot": true
+			},
+			{
+				"id": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"id": "a990-882b-7e62-27e9",
+				"importRoot": true
+			},
+			{
+				"id": "e0d8-b631-6934-ee34",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"8c11-75b5-5857-1b26": {
+		"id": "8c11-75b5-5857-1b26",
+		"name": "Chaos - Legion of Azgorh [LEGENDS]",
+		"filename": "Chaos - Legion of Azgorh [LEGENDS].cat",
+		"rev": 31,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "8c11-75b5-5857-1b26",
+				"importRoot": true
+			},
+			{
+				"id": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			}
+		]
+	},
+	"f5ce-a49e-6f51-07cf": {
+		"id": "f5ce-a49e-6f51-07cf",
+		"name": "Chaos - Legion of the First Prince",
+		"filename": "Chaos - Legion of the First Prince.cat",
+		"rev": 17,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"targetId": "de06-0235-6a96-193b",
+				"importRoot": true
+			},
+			{
+				"targetId": "e0d8-b631-6934-ee34",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "f5ce-a49e-6f51-07cf",
+				"importRoot": true
+			},
+			{
+				"id": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"id": "de06-0235-6a96-193b",
+				"importRoot": true
+			},
+			{
+				"id": "e0d8-b631-6934-ee34",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "a990-882b-7e62-27e9",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			}
+		]
+	},
+	"956f-20ef-7502-1ba0": {
+		"id": "956f-20ef-7502-1ba0",
+		"name": "Chaos - Monstrous Arcanum [LEGENDS]",
+		"filename": "Chaos - Monstrous Arcanum [LEGENDS].cat",
+		"rev": 16,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "956f-20ef-7502-1ba0",
+				"importRoot": true
+			},
+			{
+				"id": "0339-0157-6910-d29c",
+				"importRoot": true
+			}
+		]
+	},
+	"6894-a70d-7327-b3c3": {
+		"id": "6894-a70d-7327-b3c3",
+		"name": "Chaos - Nurgle",
+		"filename": "Chaos - Nurgle.cat",
+		"rev": 123,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"targetId": "a990-882b-7e62-27e9",
+				"importRoot": true
+			},
+			{
+				"targetId": "e0d8-b631-6934-ee34",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "de06-0235-6a96-193b",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "6894-a70d-7327-b3c3",
+				"importRoot": true
+			},
+			{
+				"id": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"id": "a990-882b-7e62-27e9",
+				"importRoot": true
+			},
+			{
+				"id": "e0d8-b631-6934-ee34",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "de06-0235-6a96-193b",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"de06-0235-6a96-193b": {
+		"id": "de06-0235-6a96-193b",
+		"name": "Chaos - Skaven - Data",
+		"filename": "Chaos - Skaven - Data.cat",
+		"rev": 90,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"bcc4-c671-9435-d259": {
+		"id": "bcc4-c671-9435-d259",
+		"name": "Chaos - Skaven",
+		"filename": "Chaos - Skaven.cat",
+		"rev": 43,
+		"linked": [
+			{
+				"targetId": "de06-0235-6a96-193b",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "bcc4-c671-9435-d259",
+				"importRoot": true
+			},
+			{
+				"id": "de06-0235-6a96-193b",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"357e-20c6-ad3a-d55d": {
+		"id": "357e-20c6-ad3a-d55d",
+		"name": "Chaos - Slaanesh",
+		"filename": "Chaos - Slaanesh.cat",
+		"rev": 118,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"targetId": "a990-882b-7e62-27e9",
+				"importRoot": true
+			},
+			{
+				"targetId": "e0d8-b631-6934-ee34",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "357e-20c6-ad3a-d55d",
+				"importRoot": true
+			},
+			{
+				"id": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"id": "a990-882b-7e62-27e9",
+				"importRoot": true
+			},
+			{
+				"id": "e0d8-b631-6934-ee34",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"e0d8-b631-6934-ee34": {
+		"id": "e0d8-b631-6934-ee34",
+		"name": "Chaos - Slaves to Darkness Data",
+		"filename": "Chaos - Slaves to Darkness Data.cat",
+		"rev": 133,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"targetId": "a990-882b-7e62-27e9",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"798b-2f60-3166-c5bf": {
+		"id": "798b-2f60-3166-c5bf",
+		"name": "Chaos - Slaves to Darkness",
+		"filename": "Chaos - Slaves to Darkness.cat",
+		"rev": 57,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"targetId": "e0d8-b631-6934-ee34",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "798b-2f60-3166-c5bf",
+				"importRoot": true
+			},
+			{
+				"id": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"id": "e0d8-b631-6934-ee34",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "a990-882b-7e62-27e9",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			}
+		]
+	},
+	"40a7-b89a-b3cb-cea9": {
+		"id": "40a7-b89a-b3cb-cea9",
+		"name": "Chaos - Tzeentch",
+		"filename": "Chaos - Tzeentch.cat",
+		"rev": 113,
+		"linked": [
+			{
+				"targetId": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"targetId": "a990-882b-7e62-27e9",
+				"importRoot": false
+			},
+			{
+				"targetId": "e0d8-b631-6934-ee34",
+				"importRoot": false
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "40a7-b89a-b3cb-cea9",
+				"importRoot": true
+			},
+			{
+				"id": "0339-0157-6910-d29c",
+				"importRoot": true
+			},
+			{
+				"id": "a990-882b-7e62-27e9",
+				"importRoot": false
+			},
+			{
+				"id": "e0d8-b631-6934-ee34",
+				"importRoot": false
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"0339-0157-6910-d29c": {
+		"id": "0339-0157-6910-d29c",
+		"name": "Chaos Data",
+		"filename": "Chaos Data.cat",
+		"rev": 224,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"e37a-2f18-f168-6ed3": {
+		"id": "e37a-2f18-f168-6ed3",
+		"name": "Death - Data",
+		"filename": "Death - Data.cat",
+		"rev": 134,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"6d29-cde4-372b-08d3": {
+		"id": "6d29-cde4-372b-08d3",
+		"name": "Death - Flesh-eater Courts",
+		"filename": "Death - Flesh-eater Courts.cat",
+		"rev": 95,
+		"linked": [
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "6d29-cde4-372b-08d3",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			}
+		]
+	},
+	"2a46-0cf8-0cf4-e8b2": {
+		"id": "2a46-0cf8-0cf4-e8b2",
+		"name": "Death - Nighthaunt",
+		"filename": "Death - Nighthaunt.cat",
+		"rev": 50,
+		"linked": [
+			{
+				"targetId": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "2a46-0cf8-0cf4-e8b2",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			}
+		]
+	},
+	"b3c2-9aff-8664-1d07": {
+		"id": "b3c2-9aff-8664-1d07",
+		"name": "Death - Ossiarch Bonereapers",
+		"filename": "Death - Ossiarch Bonereapers.cat",
+		"rev": 84,
+		"linked": [
+			{
+				"targetId": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": false
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "b3c2-9aff-8664-1d07",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": false
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			}
+		]
+	},
+	"0364-070f-023f-64d9": {
+		"id": "0364-070f-023f-64d9",
+		"name": "Death - Soulblight Gravelords",
+		"filename": "Death - Soulblight Gravelords.cat",
+		"rev": 30,
+		"linked": [
+			{
+				"targetId": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "0364-070f-023f-64d9",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			}
+		]
+	},
+	"9356-8da1-02b8-b092": {
+		"id": "9356-8da1-02b8-b092",
+		"name": "Destruction - Data",
+		"filename": "Destruction - Data.cat",
+		"rev": 8,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"750c-157c-3186-61d3": {
+		"id": "750c-157c-3186-61d3",
+		"name": "Destruction - Gloomspite Gitz",
+		"filename": "Destruction - Gloomspite Gitz.cat",
+		"rev": 128,
+		"linked": [
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "750c-157c-3186-61d3",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"ce1f-cfe4-3cdf-5bfc": {
+		"id": "ce1f-cfe4-3cdf-5bfc",
+		"name": "Destruction - Monstrous Arcanum [LEGENDS]",
+		"filename": "Destruction - Monstrous Arcanum [LEGENDS].cat",
+		"rev": 10,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "ce1f-cfe4-3cdf-5bfc",
+				"importRoot": true
+			}
+		]
+	},
+	"86c6-f50d-4d44-9d02": {
+		"id": "86c6-f50d-4d44-9d02",
+		"name": "Destruction - Ogor Mawtribes",
+		"filename": "Destruction - Ogor Mawtribes.cat",
+		"rev": 89,
+		"linked": [
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "86c6-f50d-4d44-9d02",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"5419-b58f-5a39-0bfe": {
+		"id": "5419-b58f-5a39-0bfe",
+		"name": "Destruction - Orruk Warclans",
+		"filename": "Destruction - Orruk Warclans.cat",
+		"rev": 129,
+		"linked": [
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "5419-b58f-5a39-0bfe",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"f904-b52f-810a-e446": {
+		"id": "f904-b52f-810a-e446",
+		"name": "Destruction - Sons of Behemat - Data",
+		"filename": "Destruction - Sons of Behemat - Data.cat",
+		"rev": 67,
+		"linked": [
+			{
+				"targetId": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"4a93-36aa-7f57-9f37": {
+		"id": "4a93-36aa-7f57-9f37",
+		"name": "Destruction - Sons of Behemat",
+		"filename": "Destruction - Sons of Behemat.cat",
+		"rev": 4,
+		"linked": [
+			{
+				"targetId": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "4a93-36aa-7f57-9f37",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"f0db-356d-9f9f-662d": {
+		"id": "f0db-356d-9f9f-662d",
+		"name": "Endless Spells",
+		"filename": "Endless Spells.cat",
+		"rev": 28,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"522a-d5b0-4c7e-321d": {
+		"id": "522a-d5b0-4c7e-321d",
+		"name": "Order - Cities of Sigmar",
+		"filename": "Order - Cities of Sigmar.cat",
+		"rev": 118,
+		"linked": [
+			{
+				"targetId": "3981-271d-5871-845b",
+				"importRoot": true
+			},
+			{
+				"targetId": "388b-16d3-8182-d6c0",
+				"importRoot": false
+			},
+			{
+				"targetId": "82b4-f6e1-3e37-5ea1",
+				"importRoot": true
+			},
+			{
+				"targetId": "ab8b-39f3-ebc0-e9ab",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "1d4c-207e-6a42-ac7d",
+				"importRoot": false
+			},
+			{
+				"targetId": "3a4f-b93a-26ba-a2d1",
+				"importRoot": false
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "522a-d5b0-4c7e-321d",
+				"importRoot": true
+			},
+			{
+				"id": "3981-271d-5871-845b",
+				"importRoot": true
+			},
+			{
+				"id": "388b-16d3-8182-d6c0",
+				"importRoot": false
+			},
+			{
+				"id": "82b4-f6e1-3e37-5ea1",
+				"importRoot": true
+			},
+			{
+				"id": "ab8b-39f3-ebc0-e9ab",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "1d4c-207e-6a42-ac7d",
+				"importRoot": false
+			},
+			{
+				"id": "3a4f-b93a-26ba-a2d1",
+				"importRoot": false
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"388b-16d3-8182-d6c0": {
+		"id": "388b-16d3-8182-d6c0",
+		"name": "Order - Daughters of Khaine",
+		"filename": "Order - Daughters of Khaine.cat",
+		"rev": 136,
+		"linked": [
+			{
+				"targetId": "82b4-f6e1-3e37-5ea1",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "388b-16d3-8182-d6c0",
+				"importRoot": true
+			},
+			{
+				"id": "82b4-f6e1-3e37-5ea1",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"81cf-7df5-86e6-b78f": {
+		"id": "81cf-7df5-86e6-b78f",
+		"name": "Order - Fyreslayers - Data",
+		"filename": "Order - Fyreslayers - Data.cat",
+		"rev": 102,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"e67a-06d2-888c-b9be": {
+		"id": "e67a-06d2-888c-b9be",
+		"name": "Order - Fyreslayers",
+		"filename": "Order - Fyreslayers.cat",
+		"rev": 42,
+		"linked": [
+			{
+				"targetId": "81cf-7df5-86e6-b78f",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": false
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "e67a-06d2-888c-b9be",
+				"importRoot": true
+			},
+			{
+				"id": "81cf-7df5-86e6-b78f",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": false
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"1bfd-6403-b65a-f52d": {
+		"id": "1bfd-6403-b65a-f52d",
+		"name": "Order - Gnomad Feastmasters (Unofficial)",
+		"filename": "Order - Gnomad Feastmasters.cat",
+		"rev": 20,
+		"linked": [
+			{
+				"targetId": "ab8b-39f3-ebc0-e9ab",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "1bfd-6403-b65a-f52d",
+				"importRoot": true
+			},
+			{
+				"id": "ab8b-39f3-ebc0-e9ab",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			}
+		]
+	},
+	"b713-a274-2a46-fe02": {
+		"id": "b713-a274-2a46-fe02",
+		"name": "Order - Idoneth Deepkin - Data",
+		"filename": "Order - Idoneth Deepkin - Data.cat",
+		"rev": 100,
+		"linked": [
+			{
+				"targetId": "ab8b-39f3-ebc0-e9ab",
+				"importRoot": true
+			},
+			{
+				"targetId": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"0d25-2712-00a2-3028": {
+		"id": "0d25-2712-00a2-3028",
+		"name": "Order - Idoneth Deepkin",
+		"filename": "Order - Idoneth Deepkin.cat",
+		"rev": 33,
+		"linked": [
+			{
+				"targetId": "ab8b-39f3-ebc0-e9ab",
+				"importRoot": true
+			},
+			{
+				"targetId": "b713-a274-2a46-fe02",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "0d25-2712-00a2-3028",
+				"importRoot": true
+			},
+			{
+				"id": "ab8b-39f3-ebc0-e9ab",
+				"importRoot": true
+			},
+			{
+				"id": "b713-a274-2a46-fe02",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"3981-271d-5871-845b": {
+		"id": "3981-271d-5871-845b",
+		"name": "Order - Kharadron Overlords - Data",
+		"filename": "Order - Kharadron Overlords - Data.cat",
+		"rev": 87,
+		"linked": [
+			{
+				"targetId": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"e23c-3deb-f35c-8104": {
+		"id": "e23c-3deb-f35c-8104",
+		"name": "Order - Kharadron Overlords",
+		"filename": "Order - Kharadron Overlords.cat",
+		"rev": 41,
+		"linked": [
+			{
+				"targetId": "3981-271d-5871-845b",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "e23c-3deb-f35c-8104",
+				"importRoot": true
+			},
+			{
+				"id": "3981-271d-5871-845b",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"9951-d56a-d0b1-eb75": {
+		"id": "9951-d56a-d0b1-eb75",
+		"name": "Order - Lethisian Army",
+		"filename": "Order - Lethisian Army.cat",
+		"rev": 18,
+		"linked": [
+			{
+				"targetId": "81cf-7df5-86e6-b78f",
+				"importRoot": true
+			},
+			{
+				"targetId": "b713-a274-2a46-fe02",
+				"importRoot": true
+			},
+			{
+				"targetId": "3981-271d-5871-845b",
+				"importRoot": true
+			},
+			{
+				"targetId": "82b4-f6e1-3e37-5ea1",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "9951-d56a-d0b1-eb75",
+				"importRoot": true
+			},
+			{
+				"id": "81cf-7df5-86e6-b78f",
+				"importRoot": true
+			},
+			{
+				"id": "b713-a274-2a46-fe02",
+				"importRoot": true
+			},
+			{
+				"id": "3981-271d-5871-845b",
+				"importRoot": true
+			},
+			{
+				"id": "82b4-f6e1-3e37-5ea1",
+				"importRoot": true
+			},
+			{
+				"id": "ab8b-39f3-ebc0-e9ab",
+				"importRoot": true
+			},
+			{
+				"id": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			}
+		]
+	},
+	"3a4f-b93a-26ba-a2d1": {
+		"id": "3a4f-b93a-26ba-a2d1",
+		"name": "Order - Lumineth",
+		"filename": "Order - Lumineth.cat",
+		"rev": 107,
+		"linked": [
+			{
+				"targetId": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "3a4f-b93a-26ba-a2d1",
+				"importRoot": true
+			},
+			{
+				"id": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			}
+		]
+	},
+	"7b81-c642-43f2-ebcc": {
+		"id": "7b81-c642-43f2-ebcc",
+		"name": "Order - Monstrous Arcanum [LEGENDS]",
+		"filename": "Order - Monstrous Arcanum [LEGENDS].cat",
+		"rev": 10,
+		"linked": [
+			{
+				"targetId": "ce1f-cfe4-3cdf-5bfc",
+				"importRoot": false
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "7b81-c642-43f2-ebcc",
+				"importRoot": true
+			},
+			{
+				"id": "ce1f-cfe4-3cdf-5bfc",
+				"importRoot": false
+			}
+		]
+	},
+	"3721-70d4-3f5f-4609": {
+		"id": "3721-70d4-3f5f-4609",
+		"name": "Order - Seraphon",
+		"filename": "Order - Seraphon.cat",
+		"rev": 130,
+		"linked": [
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": false
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "3721-70d4-3f5f-4609",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": false
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"82b4-f6e1-3e37-5ea1": {
+		"id": "82b4-f6e1-3e37-5ea1",
+		"name": "Order - Stormcast Eternals - Data",
+		"filename": "Order - Stormcast Eternals - Data.cat",
+		"rev": 170,
+		"linked": [
+			{
+				"targetId": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"ed04-877b-c5d3-ce41": {
+		"id": "ed04-877b-c5d3-ce41",
+		"name": "Order - Stormcast Eternals",
+		"filename": "Order - Stormcast Eternals.cat",
+		"rev": 69,
+		"linked": [
+			{
+				"targetId": "82b4-f6e1-3e37-5ea1",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": false
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "ed04-877b-c5d3-ce41",
+				"importRoot": true
+			},
+			{
+				"id": "82b4-f6e1-3e37-5ea1",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": false
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"ab8b-39f3-ebc0-e9ab": {
+		"id": "ab8b-39f3-ebc0-e9ab",
+		"name": "Order - Sylvaneth - Data",
+		"filename": "Order - Sylvaneth - Data.cat",
+		"rev": 125,
+		"linked": [
+			{
+				"targetId": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"bf19-727d-9c0f-1c38": {
+		"id": "bf19-727d-9c0f-1c38",
+		"name": "Order - Sylvaneth",
+		"filename": "Order - Sylvaneth.cat",
+		"rev": 26,
+		"linked": [
+			{
+				"targetId": "ab8b-39f3-ebc0-e9ab",
+				"importRoot": true
+			},
+			{
+				"targetId": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"targetId": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "bf19-727d-9c0f-1c38",
+				"importRoot": true
+			},
+			{
+				"id": "ab8b-39f3-ebc0-e9ab",
+				"importRoot": true
+			},
+			{
+				"id": "f904-b52f-810a-e446",
+				"importRoot": true
+			},
+			{
+				"id": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			},
+			{
+				"id": "33cf-d309-6df3-50d6",
+				"importRoot": true
+			},
+			{
+				"id": "1d4c-207e-6a42-ac7d",
+				"importRoot": true
+			},
+			{
+				"id": "9356-8da1-02b8-b092",
+				"importRoot": true
+			},
+			{
+				"id": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			}
+		]
+	},
+	"1d4c-207e-6a42-ac7d": {
+		"id": "1d4c-207e-6a42-ac7d",
+		"name": "Order Data",
+		"filename": "Order Data.cat",
+		"rev": 54,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"33cf-d309-6df3-50d6": {
+		"id": "33cf-d309-6df3-50d6",
+		"name": "Regiments of Renown",
+		"filename": "Regiments of Renown.cat",
+		"rev": 4,
+		"linked": [
+			{
+				"targetId": "e37a-2f18-f168-6ed3",
+				"importRoot": true
+			},
+			{
+				"targetId": "f0db-356d-9f9f-662d",
+				"importRoot": true
+			}
+		],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": true
+	},
+	"df5c-037a-3875-dbb1": {
+		"id": "df5c-037a-3875-dbb1",
+		"name": "ZZ - Chaos - Beastmen (Warscroll Compendium)",
+		"filename": "ZZ - Chaos - Beastmen (Warscroll Compendium).cat",
+		"rev": 7,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "df5c-037a-3875-dbb1",
+				"importRoot": true
+			}
+		]
+	},
+	"54ef-35f6-bf53-3877": {
+		"id": "54ef-35f6-bf53-3877",
+		"name": "ZZ - Chaos - Warriors of Chaos (Warscroll Compendium) [2017]",
+		"filename": "ZZ - Chaos - Warriors of Chaos (Warscroll Compendium).cat",
+		"rev": 4,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "54ef-35f6-bf53-3877",
+				"importRoot": true
+			}
+		]
+	},
+	"f04f-431a-40ad-2ba9": {
+		"id": "f04f-431a-40ad-2ba9",
+		"name": "ZZ - Death: Tomb Kings (Warscroll Compendium)",
+		"filename": "ZZ - Death Tomb Kings (Warscroll Compendium).cat",
+		"rev": 10,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "f04f-431a-40ad-2ba9",
+				"importRoot": true
+			}
+		]
+	},
+	"3850-c064-3a8c-d17a": {
+		"id": "3850-c064-3a8c-d17a",
+		"name": "ZZ - Death: Vampire Counts (Warscroll Compendium)",
+		"filename": "ZZ - Death Vampire Counts (Warscroll Compendium).cat",
+		"rev": 8,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "3850-c064-3a8c-d17a",
+				"importRoot": true
+			}
+		]
+	},
+	"5887-d4fd-f475-60ed": {
+		"id": "5887-d4fd-f475-60ed",
+		"name": "ZZ - Destruction - Aleguzzler Gargant",
+		"filename": "ZZ - Destruction - Aleguzzler Gargant.cat",
+		"rev": 11,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "5887-d4fd-f475-60ed",
+				"importRoot": true
+			}
+		]
+	},
+	"50c5-e039-3d93-b26b": {
+		"id": "50c5-e039-3d93-b26b",
+		"name": "ZZ - Destruction - Beastclaw Raiders",
+		"filename": "ZZ - Destruction - Beastclaw Raiders.cat",
+		"rev": 23,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "50c5-e039-3d93-b26b",
+				"importRoot": true
+			}
+		]
+	},
+	"d3d7-dd8e-19f0-ba20": {
+		"id": "d3d7-dd8e-19f0-ba20",
+		"name": "ZZ - Destruction - Gitmob Grots",
+		"filename": "ZZ - Destruction - Gitmob Grots.cat",
+		"rev": 14,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "d3d7-dd8e-19f0-ba20",
+				"importRoot": true
+			}
+		]
+	},
+	"3815-2bb0-7dfb-a9ed": {
+		"id": "3815-2bb0-7dfb-a9ed",
+		"name": "ZZ - Destruction - Moonclan Grots",
+		"filename": "ZZ - Destruction - Moonclan Grots.cat",
+		"rev": 15,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "3815-2bb0-7dfb-a9ed",
+				"importRoot": true
+			}
+		]
+	},
+	"73e1-9da8-babd-4018": {
+		"id": "73e1-9da8-babd-4018",
+		"name": "ZZ - Destruction - Orcs and Goblins",
+		"filename": "ZZ - Destruction - Orcs and Goblins.cat",
+		"rev": 25,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "73e1-9da8-babd-4018",
+				"importRoot": true
+			}
+		]
+	},
+	"6ccd-cae8-12fd-def1": {
+		"id": "6ccd-cae8-12fd-def1",
+		"name": "ZZ - Destruction - Spiderfang Grots",
+		"filename": "ZZ - Destruction - Spiderfang Grots.cat",
+		"rev": 10,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "6ccd-cae8-12fd-def1",
+				"importRoot": true
+			}
+		]
+	},
+	"5011-3921-c357-b322": {
+		"id": "5011-3921-c357-b322",
+		"name": "ZZ - Order - Bretonnia",
+		"filename": "ZZ - Order - Bretonnia.cat",
+		"rev": 13,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "5011-3921-c357-b322",
+				"importRoot": true
+			}
+		]
+	},
+	"8b7d-1ecd-afde-0fda": {
+		"id": "8b7d-1ecd-afde-0fda",
+		"name": "ZZ - Order - Dwarfs",
+		"filename": "ZZ - Order - Dwarfs.cat",
+		"rev": 13,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "8b7d-1ecd-afde-0fda",
+				"importRoot": true
+			}
+		]
+	},
+	"25a0-789a-a1d8-dd48": {
+		"id": "25a0-789a-a1d8-dd48",
+		"name": "ZZ - Order - Empire",
+		"filename": "ZZ - Order - Empire.cat",
+		"rev": 11,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "25a0-789a-a1d8-dd48",
+				"importRoot": true
+			}
+		]
+	},
+	"f0e6-fdbe-bf87-635e": {
+		"id": "f0e6-fdbe-bf87-635e",
+		"name": "ZZ - Order - High Elves",
+		"filename": "ZZ - Order - High Elves.cat",
+		"rev": 10,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "f0e6-fdbe-bf87-635e",
+				"importRoot": true
+			}
+		]
+	},
+	"b6e8-9a41-d1ef-8d10": {
+		"id": "b6e8-9a41-d1ef-8d10",
+		"name": "ZZ - Order - Wood Elves",
+		"filename": "ZZ - Order - Wood Elves.cat",
+		"rev": 16,
+		"linked": [],
+		"gst": "e51d-b1a3-75fc-dc33",
+		"isLibrary": false,
+		"fullImport": [
+			{
+				"id": "b6e8-9a41-d1ef-8d10",
+				"importRoot": true
+			}
+		]
+	}
+}
