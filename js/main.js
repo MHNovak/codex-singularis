@@ -9,7 +9,7 @@ const dataPath = document.location.origin+"/assets/data";
 // const wh40kURI = "assets/data-json/Warhammer 40,000.gst.json";
 // const wh40kIndex = "assets/data-json/fileIndex.json";
 // popular game systems
-const popGst = ['wh40k','wh40k-killteam','warhammer-age-of-sigmar','horus-heresy','gaslands','aeronautica-imperialis'];//'adeptus-titanicus','whfb'];
+const popGst = ['wh40k-10e','wh40k-9e','wh40k','wh40k-killteam','warhammer-age-of-sigmar','horus-heresy','gaslands'];//'adeptus-titanicus','whfb'];
 const galleryPath = document.location.origin+'/assets/data/catpkg-gallery.json';
 // const testDataPath = 'https://github.com/BSData/wh40k/releases/download/v9.7.11/wh40k.v9.7.11.bsr';
 var galleryData;
